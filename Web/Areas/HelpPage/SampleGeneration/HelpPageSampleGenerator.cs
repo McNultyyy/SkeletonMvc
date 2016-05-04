@@ -56,7 +56,7 @@ namespace Web.Areas.HelpPage
         /// <remarks>
         /// Collection includes just <see cref="ObjectGenerator.GenerateObject(Type)"/> initially. Use
         /// <code>SampleObjectFactories.Insert(0, func)</code> to provide an override and
-        /// <code>SampleObjectFactories.Create(func)</code> to provide a fallback.</remarks>
+        /// <code>SampleObjectFactories.Add(func)</code> to provide a fallback.</remarks>
         [SuppressMessage("Microsoft.Design", "CA1006:DoNotNestGenericTypesInMemberSignatures",
             Justification = "This is an appropriate nesting of generic types")]
         public IList<Func<HelpPageSampleGenerator, Type, object>> SampleObjectFactories { get; private set; }

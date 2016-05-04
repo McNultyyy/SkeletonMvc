@@ -246,7 +246,7 @@ namespace Web.Areas.HelpPage
             }
 
             object result = Activator.CreateInstance(dictionaryType);
-            MethodInfo addMethod = dictionaryType.GetMethod("Create") ?? dictionaryType.GetMethod("TryAdd");
+            MethodInfo addMethod = dictionaryType.GetMethod("Add") ?? dictionaryType.GetMethod("TryAdd");
             MethodInfo containsMethod = dictionaryType.GetMethod("Contains") ?? dictionaryType.GetMethod("ContainsKey");
             ObjectGenerator objectGenerator = new ObjectGenerator();
             for (int i = 0; i < size; i++)
@@ -312,7 +312,7 @@ namespace Web.Areas.HelpPage
                 collectionType.GetGenericArguments()[0] :
                 typeof(object);
             object result = Activator.CreateInstance(collectionType);
-            MethodInfo addMethod = collectionType.GetMethod("Create");
+            MethodInfo addMethod = collectionType.GetMethod("Add");
             bool areAllElementsNull = true;
             ObjectGenerator objectGenerator = new ObjectGenerator();
             for (int i = 0; i < size; i++)
