@@ -5,14 +5,14 @@ namespace CodeFirst.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Repository.TsrpContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Repository.SkeletonMvcContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Repository.TsrpContext context)
+        protected override void Seed(Repository.SkeletonMvcContext context)
         {
             //  This method will be called after migrating to the latest version.
 

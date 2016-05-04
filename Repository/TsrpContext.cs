@@ -9,12 +9,12 @@ using Model;
 
 namespace Repository
 {
-    public class TsrpContext : DbContext, IContext
+    public class SkeletonMvcContext : DbContext, IContext
     {
 
-        public TsrpContext()
+        public SkeletonMvcContext()
         {
-            //Database.SetInitializer<TsrpContext>(null);
+            //Database.SetInitializer<SkeletonMvcContext>(null);
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

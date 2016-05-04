@@ -29,7 +29,7 @@ namespace DependencyInjection
 
         private static void RegisterServices(IUnityContainer container)
         {
-            container.RegisterType<IContext, TsrpContext>();
+            container.RegisterType<IContext, SkeletonMvcContext>();
             container.RegisterType(typeof(IRepository<>), typeof(Repository<>));
 
             container.RegisterImplementationsClosingInterface(typeof(IViewBuilder<>));
