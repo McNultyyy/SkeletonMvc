@@ -1,6 +1,4 @@
-﻿using System.Web.UI.WebControls;
-
-namespace DependencyInjection.ViewFactory
+﻿namespace DependencyInjection.ViewFactory
 {
     public interface IViewFactory
     {

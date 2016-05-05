@@ -1,7 +1,9 @@
 ﻿using System;
+using DependencyInjection.ViewFactory;
 using Microsoft.Practices.Unity;
+using Model.ViewFactory;
 
-namespace DependencyInjection.ViewFactory
+namespace DependencyInjection
 {
     public class DefaultViewFactory : IViewFactory
     {
