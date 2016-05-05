@@ -17,6 +17,7 @@ namespace UnitTest
             var result = controller.Index();
 
             //Assert
+            Assert.NotNull(result);
             Assert.IsInstanceOf<ActionResult>(result);
         }
     }
