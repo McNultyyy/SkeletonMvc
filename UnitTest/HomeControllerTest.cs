@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System.Web.Mvc;
+using NUnit.Framework;
+using Web.Controllers;
 
 namespace UnitTest
 {
@@ -8,7 +10,14 @@ namespace UnitTest
         [Test]
         public void TestMethod1()
         {
-            Assert.True(true);
+            //Assemble
+            var controller = new HomeController();
+
+            //Act
+            var result = controller.Index();
+
+            //Assert
+            Assert.IsInstanceOf<ActionResult>(result);
         }
     }
 }

@@ -77,10 +77,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ViewFactory\DefaultViewFactory.cs" />
     <Compile Include="Extensions\UnityExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IoC.cs" />
-    <Compile Include="ViewFactory\DefaultViewFactory.cs" />
     <Compile Include="ViewFactory\IViewBuilder.cs" />
     <Compile Include="ViewFactory\IViewFactory.cs" />
   </ItemGroup>
