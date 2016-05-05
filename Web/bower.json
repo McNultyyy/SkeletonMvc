@@ -1,0 +1,17 @@
+{
+  "name": "SkeletonMvc",
+  "description": "A skeleton project for general MVC projects.",
+  "main": "index.js",
+  "authors": [
+    "William McNulty <william.mcnulty@live.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
