@@ -47,11 +47,6 @@ namespace Repository
         {
             return base.Set<TEntity>();
         }
-
-        public object g()
-        {
-            return base.Set(typeof(String));
-        }
     }
 
 
