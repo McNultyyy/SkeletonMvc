@@ -10,13 +10,13 @@ namespace UnitTest
         [Test]
         public void TestMethod1()
         {
-            //Assemble
+            // Assemble
             var controller = new HomeController();
 
-            //Act
+            // Act
             var result = controller.Index();
 
-            //Assert
+            // Assert
             Assert.NotNull(result);
             Assert.IsInstanceOf<ActionResult>(result);
         }
