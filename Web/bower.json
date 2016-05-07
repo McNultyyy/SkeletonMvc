@@ -18,7 +18,7 @@
     "bootstrap": "^3.3.6",
     "respond": "^1.4.2",
     "modernizer": "^2.8.2",
-    "jquery-validation": "jquery.validate#^1.13.0",
+    "jquery-validation": "^1.15.0",
     "jquery-validation-unobtrusive": "^3.2.6"
   }
 }
