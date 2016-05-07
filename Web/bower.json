@@ -19,6 +19,7 @@
     "respond": "^1.4.2",
     "modernizer": "^2.8.2",
     "jquery-validation": "^1.15.0",
-    "jquery-validation-unobtrusive": "^3.2.6"
+    "jquery-validation-unobtrusive": "^3.2.6",
+    "jquery-ajax-unobtrusive": "^3.2.4"
   }
 }
