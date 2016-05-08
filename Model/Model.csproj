@@ -60,6 +60,7 @@
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="EntityMappings\EmployeeMapping.cs" />
+    <Compile Include="EntityMappings\EntityMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
