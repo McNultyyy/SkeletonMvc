@@ -1,19 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2B65B37-C112-4E75-830E-174EA8C7065B}</ProjectGuid>
+    <ProjectGuid>{AE6448E8-0526-45C5-9DC5-44221994BAEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DependencyInjection</RootNamespace>
-    <AssemblyName>DependencyInjection</AssemblyName>
+    <RootNamespace>Mapper</RootNamespace>
+    <AssemblyName>Mapper</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -45,20 +46,29 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ViewFactory\DefaultViewFactory.cs" />
-    <Compile Include="Extensions\UnityExtension.cs" />
-    <Compile Include="ViewFactory\IViewBuilder.cs" />
-    <Compile Include="ViewFactory\IViewFactory.cs" />
+    <Compile Include="AutoMapperConfig.cs" />
+    <Compile Include="EntityMappings\BlogMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IoC.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogIndexViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogEditViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogCreateViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogDetailsViewBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DependencyInjection\DependencyInjection.csproj">
+      <Project>{B2B65B37-C112-4E75-830E-174EA8C7065B}</Project>
+      <Name>DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{4CC61433-1DE1-423B-9768-0ADF5CA5C627}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repository\Repository.csproj">
-      <Project>{26564dce-1bd5-470a-81aa-779bf829edfa}</Project>
+      <Project>{26564DCE-1BD5-470A-81AA-779BF829EDFA}</Project>
       <Name>Repository</Name>
     </ProjectReference>
   </ItemGroup>

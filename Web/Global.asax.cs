@@ -6,7 +6,9 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using DependencyInjection;
+using Mapper;
 using Microsoft.Practices.Unity.Mvc;
+using Model;
 
 namespace Web
 {
@@ -18,6 +20,8 @@ namespace Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            AutoMapperConfig.RegisterMapping();
 
             DependencyResolver.SetResolver(new UnityDependencyResolver(IoC.GetConfiguredContainer()));
         }

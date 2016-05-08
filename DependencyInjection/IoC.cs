@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using DependencyInjection.Extensions;
 using DependencyInjection.ViewFactory;
 using Microsoft.Practices.Unity;
@@ -32,6 +31,7 @@ namespace DependencyInjection
             container.RegisterType<IContext, SkeletonMvcContext>();
             container.RegisterType(typeof(IRepository<>), typeof(Repository<>));
 
+            container.RegisterType<IViewFactory, DefaultViewFactory>();
             container.RegisterImplementationsClosingInterface(typeof(IViewBuilder<>));
             container.RegisterImplementationsClosingInterface(typeof(IViewBuilder<,>));
         }

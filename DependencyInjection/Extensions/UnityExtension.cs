@@ -7,23 +7,25 @@ namespace DependencyInjection.Extensions
 {
     public static class UnityExtension
     {
-        public static void RegisterImplementationsClosingInterface(this IUnityContainer container, Type genericInterface)
+        public static void RegisterImplementationsClosingInterface(
+            this IUnityContainer container,
+            Type genericInterface,
+            Assembly assembly = null)
         {
-            foreach (var type in Assembly.GetExecutingAssembly().GetExportedTypes())
+            var assemblyTypes = assembly?.GetTypes() ?? AppDomain.CurrentDomain.GetAssemblies().SelectMany(x => x.GetTypes());
+
+            var types = assemblyTypes.Where(x => !x.IsAbstract && x.IsClass);
+
+            foreach (var type in types)
             {
-                //   concrete class or not?
-                if (!type.IsAbstract && type.IsClass)
-                {
-                    // has the interface or not?
-                    var iface = type.GetInterfaces().FirstOrDefault(i =>
-                        i.IsGenericType &&
-                        i.GetGenericTypeDefinition() == genericInterface
-                    );
+                // has the interface or not?
+                var iface = type.GetInterfaces().FirstOrDefault(i =>
+                    i.IsGenericType &&
+                    i.GetGenericTypeDefinition() == genericInterface
+                );
 
-                    if (iface != null)
-                        container.RegisterType(iface, type);
-                }
-
+                if (iface != null)
+                    container.RegisterType(iface, type);
             }
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace Repository
+﻿using Model.Entities;
+
+namespace Repository
 {
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;

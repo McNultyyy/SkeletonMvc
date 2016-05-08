@@ -1,13 +1,14 @@
-﻿namespace Repository
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.ModelConfiguration;
-    using System.Data.Entity.ModelConfiguration.Conventions;
-    using System.Linq;
-    using System.Reflection;
+﻿using Model.Entities;
+using Repository.Conventions;
+using System;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using System.Reflection;
 
-    using Model;
+namespace Repository
+{
 
     public class SkeletonMvcContext : DbContext, IContext
     {
@@ -25,9 +26,13 @@
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.AddBefore<ForeignKeyIndexConvention>(new ForeignKeyNamingConvention());
 
             // DYNAMIC WAY OF MAPPING OUR ENTITIES
-            var typesToRegister = Assembly.GetAssembly(typeof(BaseEntity)).GetTypes()
+            var allTypes = AppDomain.CurrentDomain
+                .GetAssemblies().SelectMany(x => x.GetTypes());
+
+            var typesToRegister = allTypes
                 .Where(type => !string.IsNullOrEmpty(type.Namespace))
                 .Where(type => type.BaseType != null
                                && type.BaseType.IsGenericType
