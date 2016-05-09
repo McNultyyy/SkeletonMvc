@@ -9,9 +9,10 @@ namespace Mapper
         {
             AutoMapper.Mapper.Initialize(config =>
             {
+                config.CreateMap<Blog, BlogIndexItemModel>().ReverseMap();
+                config.CreateMap<Blog, BlogCreateModel>().ReverseMap();
                 config.CreateMap<Blog, BlogEditModel>().ReverseMap();
                 config.CreateMap<Blog, BlogDetailsModel>().ReverseMap();
-                config.CreateMap<Blog, BlogIndexItemModel>().ReverseMap();
             });
         }
     }

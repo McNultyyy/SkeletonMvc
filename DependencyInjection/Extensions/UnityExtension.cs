@@ -12,7 +12,7 @@ namespace DependencyInjection.Extensions
             Type genericInterface,
             Assembly assembly = null)
         {
-            var assemblyTypes = assembly?.GetTypes() ?? AppDomain.CurrentDomain.GetAssemblies().SelectMany(x => x.GetTypes());
+            var assemblyTypes = assembly?.GetTypes() ?? AppDomain.CurrentDomain.GetAssemblies().SelectMany(x => x.GetLoadableTypes());
 
             var types = assemblyTypes.Where(x => !x.IsAbstract && x.IsClass);
 
