@@ -1,4 +1,6 @@
 ﻿using System;
+using System.CodeDom;
+using Microsoft.CSharp;
 
 namespace UnitTest.Extensions
 {
@@ -15,13 +17,21 @@ namespace UnitTest.Extensions
         public static string FormattedName(this Type type, bool longName = false)
         {
             var underlyingType = Nullable.GetUnderlyingType(type);
+
+            string typeName;
+            using (var provider = new CSharpCodeProvider())
+            {
+                var typeRef = new CodeTypeReference(underlyingType ?? type);
+                typeName = provider.GetTypeOutput(typeRef);
+            }
+
             if (underlyingType != null)
             {
                 return longName ?
-                    $"Nullable<{underlyingType.Name}>" :
-                    $"{underlyingType.Name}?";
+                    $"Nullable<{typeName}>" :
+                    $"{typeName}?";
             }
-            return type.Name;
+            return typeName;
         }
     }
 }
