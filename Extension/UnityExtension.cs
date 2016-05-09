@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.Practices.Unity;
 
-namespace DependencyInjection.Extensions
+namespace Extension
 {
     public static class UnityExtension
     {

@@ -1,6 +1,6 @@
 ﻿using System;
-using DependencyInjection.Extensions;
 using DependencyInjection.ViewFactory;
+using Extension;
 using Microsoft.Practices.Unity;
 using Repository;
 

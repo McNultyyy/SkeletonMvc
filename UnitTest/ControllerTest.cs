@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Extension;
 using Mapper;
 using Moq;
 using NUnit.Framework;
-using UnitTest.Extensions;
 using Web;
 
 namespace UnitTest
