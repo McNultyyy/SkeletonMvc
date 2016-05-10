@@ -17,7 +17,7 @@ namespace UnitTest
         public void TestAllControllerActions()
         {
             AutoMapperConfig.RegisterMapping();
-             
+
             var allTypes = typeof(MvcApplication).Assembly.GetExportedTypes();
 
             //Generic types are not allowed as they are only used for inheritance.
@@ -38,7 +38,7 @@ namespace UnitTest
                     var paramType = parameter.ParameterType;
 
                     //var realDependency = IoC.GetConfiguredContainer().Resolve(paramType);
-                    var fakeDependency = DynamicMock(paramType);
+                    var fakeDependency = paramType.DynamicMock();
 
                     dependencies.Add(fakeDependency);
                 }
@@ -72,17 +72,12 @@ namespace UnitTest
                     var result = action.Invoke(controller, input);
                     Assert.IsInstanceOf<ActionResult>(result);
 
-                    var paramsString = string.Join(", ", methodParamInfos.Select(x => x.ParameterType.FormattedName() + " " + x.Name));
+                    var paramsString = string.Join(", ",
+                        methodParamInfos.Select(x => x.ParameterType.FormattedName() + " " + x.Name));
 
                     Console.WriteLine("Tested {0}.{1}({2})", controllerType.Name, action.Name, paramsString);
                 }
             }
-        }
-
-        private static object DynamicMock(Type type)
-        {
-            var mock = typeof(Mock<>).MakeGenericType(type).GetConstructor(Type.EmptyTypes).Invoke(new object[] { });
-            return mock.GetType().GetProperties().Single(f => f.Name == "Object" && f.PropertyType == type).GetValue(mock, new object[] { });
         }
     }
 }

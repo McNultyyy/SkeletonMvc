@@ -1,6 +1,8 @@
 ﻿using System;
 using System.CodeDom;
+using System.Linq;
 using Microsoft.CSharp;
+using Moq;
 
 namespace Extension
 {
@@ -9,9 +11,9 @@ namespace Extension
         public static Type GetNullableType(this Type type)
         {
             type = Nullable.GetUnderlyingType(type);
-            if (type.IsValueType)
-                return typeof(Nullable<>).MakeGenericType(type);
-            return type;
+            return type.IsValueType ?
+                typeof(Nullable<>).MakeGenericType(type) :
+                type;
         }
 
         public static string FormattedName(this Type type, bool longName = false)
@@ -26,12 +28,22 @@ namespace Extension
             }
 
             if (underlyingType != null)
-            {
-                return longName ?
-                    $"Nullable<{typeName}>" :
-                    $"{typeName}?";
-            }
+                return longName
+                    ? $"Nullable<{typeName}>"
+                    : $"{typeName}?";
             return typeName;
+        }
+
+        public static object DynamicMock(this Type type)
+        {
+            var mock = typeof(Mock<>)
+                .MakeGenericType(type)
+                .GetConstructor(Type.EmptyTypes)
+                .Invoke(new object[] { });
+            return mock.GetType()
+                .GetProperties()
+                .Single(x => x.Name == "Object" && x.PropertyType == type)
+                .GetValue(mock, new object[] { });
         }
     }
 }
