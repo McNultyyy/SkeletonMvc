@@ -167,6 +167,7 @@
     <Content Include="package.json" />
     <Content Include="bower.json" />
     <Content Include=".bowerrc" />
+    <Content Include="Views\Error\403.cshtml" />
     <None Include="Views\Error\500.cshtml" />
     <None Include="Views\Error\404.cshtml" />
     <Content Include="Web.config" />

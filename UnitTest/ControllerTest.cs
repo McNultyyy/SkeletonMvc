@@ -1,22 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 using Extension;
 using Mapper;
 using Moq;
 using NUnit.Framework;
 using Web;
+using Web.Controllers;
 
 namespace UnitTest
 {
     [TestFixture]
     public class ControllerTest
     {
+        private static Mock<HttpContextBase> MockedHttpContext(string url)
+        {
+            var mockHttpContext = new Mock<HttpContextBase>();
+            var mockResponse = new Mock<HttpResponseBase>();
+
+            mockHttpContext.Setup(x => x.Response).Returns(mockResponse.Object);
+
+            return mockHttpContext;
+        }
+
         [Test]
         public void TestAllControllerActions()
         {
             AutoMapperConfig.RegisterMapping();
+
+            var mockHttpContext = MockedHttpContext("").Object;
 
             var allTypes = typeof(MvcApplication).Assembly.GetExportedTypes();
 
@@ -28,7 +42,7 @@ namespace UnitTest
             foreach (var controllerType in controllerTypes)
             {
                 var controllerConstructors = controllerType.GetConstructors();
-                var ctor = controllerConstructors.OrderByDescending(x => x.GetParameters().Count()).FirstOrDefault();
+                var ctor = controllerConstructors.OrderByDescending(x => x.GetParameters().Length).FirstOrDefault();
 
                 var controllerParamInfos = ctor.GetParameters();
 
@@ -43,6 +57,14 @@ namespace UnitTest
                     dependencies.Add(fakeDependency);
                 }
                 var controller = Activator.CreateInstance(controllerType, dependencies.ToArray());
+
+                var controllerProperties = controllerType.GetProperties();
+                foreach (var controllerProperty in controllerProperties)
+                {
+                    if (controllerProperty.Name == nameof(ControllerContext))
+                        controllerProperty.SetValue(controller, new ControllerContext { HttpContext = mockHttpContext }, null);
+                }
+
 
                 var actions = controllerType.GetMethods().Where(x => x.ReturnType == typeof(ActionResult));
                 foreach (var action in actions)
