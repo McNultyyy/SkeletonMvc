@@ -17,5 +17,4 @@ namespace Model.Entities
         int Id { get; set; }
         byte[] RowVersion { get; set; }
     }
-
 }
