@@ -167,7 +167,7 @@
     <Content Include="package.json" />
     <Content Include="bower.json" />
     <Content Include=".bowerrc" />
-    <Content Include="app_offline.html" />
+    <Content Include="take_app_offline.html" />
     <Content Include="Views\Error\403.cshtml" />
     <None Include="Views\Error\500.cshtml" />
     <None Include="Views\Error\404.cshtml" />
