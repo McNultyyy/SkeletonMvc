@@ -2,7 +2,7 @@
 using System.CodeDom;
 using Microsoft.CSharp;
 
-namespace UnitTest.Extensions
+namespace Extension
 {
     public static class TypeExtension
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace DependencyInjection.Extensions
+namespace Extension
 {
     public static class AssemblyExtension
     {

@@ -86,7 +86,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ControllerTest.cs" />
-    <Compile Include="Extensions\TypeExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +93,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Extension\Extension.csproj">
+      <Project>{93279203-9a01-459d-93f6-f528518f1625}</Project>
+      <Name>Extension</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mapper\Mapper.csproj">
       <Project>{AE6448E8-0526-45C5-9DC5-44221994BAEA}</Project>
       <Name>Mapper</Name>
