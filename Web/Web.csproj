@@ -294,9 +294,7 @@
     <Message Text="Npm Build Finished" />
   </Target>
   <Target Name="BowerBuild">
-    <!--This part fails because bower can't find Git-->
-    <Exec Command="dir" />
-    <Exec Command="pwd" />
+    <Exec Command="git config --global url.https://github.com/.insteadOf git://github.com/" />
     <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd install" />
     <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd cache clean" />
     <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd update" />
