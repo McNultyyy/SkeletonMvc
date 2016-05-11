@@ -172,7 +172,9 @@
     <Content Include="Views\Error\401.cshtml" />
     <None Include="Views\Error\500.cshtml" />
     <None Include="Views\Error\404.cshtml" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -269,7 +271,7 @@
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
-    <PropertyGroup>
+  <PropertyGroup>
     <PostBuildEvent>
       if not exist "$(WebProjectOutputDir)\bin\Roslyn" md "$(WebProjectOutputDir)\bin\Roslyn"
       start /MIN xcopy /s /y /R "$(OutDir)roslyn\*.*" "$(WebProjectOutputDir)\bin\Roslyn"
@@ -279,6 +281,23 @@
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
+  -->
   <Target Name="AfterBuild">
-  </Target> -->
+    <CallTarget Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " Targets="NpmBuild" />
+    <CallTarget Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " Targets="BowerBuild" />
+  </Target>
+  <Target Name="NpmBuild">
+    <!--This part runs OK as AppHarbor machine has node installed-->
+    <Exec Command="npm install" />
+    <Exec Command="npm install bower -g" />
+    <Exec Command="npm install gulp -g" />
+    <Message Text="Npm Build Finished" />
+  </Target>
+  <Target Name="BowerBuild">
+    <!--This part fails because bower can't find Git-->
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower install" />
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower cache clean" />
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower update" />
+    <Message Text="Bower Build Finished" />
+  </Target>
 </Project>
