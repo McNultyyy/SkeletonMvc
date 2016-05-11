@@ -169,6 +169,7 @@
     <Content Include=".bowerrc" />
     <Content Include="take_app_offline.html" />
     <Content Include="Views\Error\403.cshtml" />
+    <Content Include="Views\Error\401.cshtml" />
     <None Include="Views\Error\500.cshtml" />
     <None Include="Views\Error\404.cshtml" />
     <Content Include="Web.config" />
