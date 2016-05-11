@@ -295,9 +295,9 @@
   </Target>
   <Target Name="BowerBuild">
     <!--This part fails because bower can't find Git-->
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower install" />
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower cache clean" />
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower update" />
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd install" />
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd cache clean" />
+    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd update" />
     <Message Text="Bower Build Finished" />
   </Target>
 </Project>
