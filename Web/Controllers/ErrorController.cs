@@ -4,6 +4,14 @@ namespace Web.Controllers
 {
     public class ErrorController : Controller
     {
+        // GET: Error/401
+        [ActionName("401")]
+        public ActionResult Unauthorized()
+        {
+            Response.StatusCode = 401;
+            return View();
+        }
+
         // GET: Error/403
         [ActionName("403")]
         public ActionResult Forbidden()
