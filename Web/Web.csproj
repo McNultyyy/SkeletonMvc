@@ -282,23 +282,8 @@
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
-  -->
+  
   <Target Name="AfterBuild">
-    <CallTarget Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " Targets="NpmBuild" />
-    <CallTarget Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " Targets="BowerBuild" />
   </Target>
-  <Target Name="NpmBuild">
-    <!--This part runs OK as AppHarbor machine has node installed-->
-    <Exec Command="npm install" />
-    <Exec Command="npm install bower -g" />
-    <Exec Command="npm install gulp -g" />
-    <Message Text="Npm Build Finished" />
-  </Target>
-  <Target Name="BowerBuild">
-    <Exec Command="git config --global url.https://github.com/.insteadOf git://github.com/" />
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd install" />
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd cache clean" />
-    <Exec Command="%USERPROFILE%\AppData\Roaming\npm\bower.cmd update" />
-    <Message Text="Bower Build Finished" />
-  </Target>
+  -->
 </Project>
