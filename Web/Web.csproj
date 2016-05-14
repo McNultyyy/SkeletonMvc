@@ -278,12 +278,13 @@
       start /MIN xcopy /s /y /R "$(OutDir)roslyn\*.*" "$(WebProjectOutputDir)\bin\Roslyn"
     </PostBuildEvent>
   </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
+    <Exec Command="npm cache clean" />
+    <Exec Command="npm install" />
+    <Exec Command="node_modules\.bin\bower cache clean" />
+    <Exec Command="node_modules\.bin\bower install" />
   </Target>
   
   <Target Name="AfterBuild">
   </Target>
-  -->
 </Project>
