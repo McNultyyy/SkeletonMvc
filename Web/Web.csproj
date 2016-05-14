@@ -279,6 +279,10 @@
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">
+    <Exec Command="git --version" />
+    <Exec Command="npm --version" />
+    <Exec Command="node --version"/>
+    
     <Exec Command="npm cache clean" />
     <Exec Command="npm install" />
     <Exec Command="node_modules\.bin\bower cache clean" />
