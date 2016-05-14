@@ -1,9 +1,9 @@
 npm cache clean
 npm install
 
-./node_modules/.bin/bower cache clean
-./node_modules/.bin/bower install
+.\node_modules\.bin\bower.cmd cache clean
+.\node_modules\.bin\bower.cmd install
 
-#./node_modules/.bin/gulp build
+#.\node_modules\.bin\gulp.cmd build
 
-./node_modules/.bin/rimraf ./node_modules
+.\node_modules\.bin\rimraf.cmd .\node_modules\

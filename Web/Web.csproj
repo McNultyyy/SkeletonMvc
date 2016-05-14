@@ -171,6 +171,7 @@
     <Content Include="take_app_offline.htm" />
     <Content Include="Views\Error\403.cshtml" />
     <Content Include="Views\Error\401.cshtml" />
+    <Content Include="build.ps1" />
     <None Include="Views\Error\500.cshtml" />
     <None Include="Views\Error\404.cshtml" />
     <Content Include="Web.config">
@@ -278,12 +279,9 @@
       start /MIN xcopy /s /y /R "$(OutDir)roslyn\*.*" "$(WebProjectOutputDir)\bin\Roslyn"
     </PostBuildEvent>
   </PropertyGroup>
-
-
   <Target Name="BeforeBuild">
-      <Exec Command='powershell -executionpolicy Unrestricted -command "$(ProjectDir)\build.ps1"' />
+    <Exec Command='powershell -executionpolicy Unrestricted -command "$(ProjectDir)\build.ps1"' />
   </Target>
-
   <Target Name="AfterBuild">
   </Target>
 </Project>
