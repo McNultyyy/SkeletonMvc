@@ -279,10 +279,10 @@
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">
-    <Exec Condition="'$(Configuration)' == 'Release'" Command='git config --global url."https://".insteadOf git:// -d' />
     <Exec Command="npm cache clean" />
     <Exec Command="npm install" />
     <Exec Command="node_modules\.bin\bower cache clean" />
+    <Exec Condition="'$(Configuration)' == 'Release'" Command='git config --global url."https://".insteadOf git:// -d' />
     <Exec Command="node_modules\.bin\bower install" />
   </Target>
 
