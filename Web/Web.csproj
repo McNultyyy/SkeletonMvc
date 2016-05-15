@@ -280,7 +280,7 @@
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">
-    <Exec Command='powershell -executionpolicy Unrestricted -command "$(ProjectDir)\build.ps1"' />
+    <Exec Command='powershell -executionpolicy Unrestricted -command "./build.ps1"' />
   </Target>
   <Target Name="AfterBuild">
   </Target>
