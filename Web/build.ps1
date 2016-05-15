@@ -1,4 +1,4 @@
-git config --global url."https://".insteadOf git://
+#git config --global url."https://".insteadOf git://
 
 npm cache clean
 npm install
