@@ -189,6 +189,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -280,7 +281,7 @@
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">
-    <Exec Command='powershell -executionpolicy Unrestricted -command "./build.ps1"' />
+    <Exec Command="powershell -executionpolicy Unrestricted -command &quot;./build.ps1&quot;" />
   </Target>
   <Target Name="AfterBuild">
   </Target>
