@@ -278,6 +278,8 @@
     <PostBuildEvent>
       if not exist "$(WebProjectOutputDir)\bin\Roslyn" md "$(WebProjectOutputDir)\bin\Roslyn"
       start /MIN xcopy /s /y /R "$(OutDir)roslyn\*.*" "$(WebProjectOutputDir)\bin\Roslyn"
+      if not exist "$(WebProjectOutputDir)\bower_components" md "$(WebProjectOutputDir)\bower_components"
+      start /MIN xcopy /s /y /R "$(MSBuildProjectDirectory)\bower_components\*.*" "$(WebProjectOutputDir)\bower_components"
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">

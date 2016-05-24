@@ -1,6 +1,4 @@
-#force create the dependency folders
-md -force bower_components
-md -force node_modules
+git init
 
 #git config --global url."https://".insteadOf git://
 
