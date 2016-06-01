@@ -282,7 +282,7 @@
       start /MIN xcopy /s /y /R "$(MSBuildProjectDirectory)\bower_components\*.*" "$(WebProjectOutputDir)\bower_components"
     </PostBuildEvent>
   </PropertyGroup>
-  <Target Name="BeforeBuild">
+  <Target Name="BeforeBuild" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Exec Command="powershell -executionpolicy Unrestricted -command &quot;./build.ps1&quot;" />
   </Target>
   <Target Name="AfterBuild">
