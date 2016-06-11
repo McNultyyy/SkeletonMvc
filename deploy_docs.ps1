@@ -1,2 +1,3 @@
-cd Model/bin/Debug
-Get-Content Model.XML
+cd Documentation/Help
+dir
+pwd
