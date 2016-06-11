@@ -10,6 +10,8 @@ cache:
 - Web/node_modules
 install:
 - choco install -y sandcastle
+environment:
+  SHFBROOT: c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder
 before_build:
 - cmd: nuget restore
 build:
