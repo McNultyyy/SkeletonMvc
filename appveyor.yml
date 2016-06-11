@@ -20,6 +20,4 @@ build:
   parallel: true
   verbosity: minimal
 deploy_script:
-- cd Documentation/Help
-- dir
-- pwd
+- .\deploy_docs.ps1
