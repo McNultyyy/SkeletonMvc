@@ -3,12 +3,13 @@ image:
 - Visual Studio 2015
 configuration:
 - Debug
-- Release
 clone_depth: 1
 cache:
 - packages -> **\packages.config
 - Web/bower_components
 - Web/node_modules
+install:
+- choco install -y sandcastle
 before_build:
 - cmd: nuget restore
 build:
