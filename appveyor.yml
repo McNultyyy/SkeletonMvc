@@ -8,6 +8,7 @@ cache:
 - packages -> **\packages.config
 - Web/bower_components
 - Web/node_modules
+- '%LocalAppData%\NuGet\Cache'
 install:
 - choco install -y sandcastle
 environment:
