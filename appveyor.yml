@@ -1,8 +1,16 @@
 version: 1.0.{build}
+image:
+- Visual Studio 2015
+- Visual Studio 2013
+clone_depth: 1
+cache:
+- packages -> **\packages.config
+- Web/bower_components
+- Web/node_modules
 before_build:
 - cmd: nuget restore
 build:
   project: SkeletonMvc.sln
-  verbosity: detailed
-on_finish:
+  verbosity: minimal
+deploy_script:
 - ps1: deploy_docs.ps1
