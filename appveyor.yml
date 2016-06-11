@@ -5,4 +5,4 @@ build:
   project: SkeletonMvc.sln
   verbosity: minimal
 after_build:
-- ps: deploy_docs.ps1
+- cmd: deploy_docs.ps1
