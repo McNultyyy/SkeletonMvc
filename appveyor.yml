@@ -3,6 +3,6 @@ before_build:
 - cmd: nuget restore
 build:
   project: SkeletonMvc.sln
-  verbosity: minimal
+  verbosity: detailed
 after_build:
 - ps1: deploy_docs.ps1
