@@ -213,3 +213,6 @@ ModelManifest.xml
 
 # Bower Components
 bower_components
+
+# Documentation path
+Documentation/Help/**/*.*
