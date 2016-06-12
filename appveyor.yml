@@ -15,7 +15,7 @@ install:
 environment:
   SHFBROOT: c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder
   GH_TOKEN:
-	secure: BGc9FE1XSc+IQdp11BWC1ISgt7ucp4DinsKlJL4XM5ngc4oComC4D4s2+/EXY7XM
+    secure: BGc9FE1XSc+IQdp11BWC1ISgt7ucp4DinsKlJL4XM5ngc4oComC4D4s2+/EXY7XM
 before_build:
 - cmd: nuget restore
 build:
