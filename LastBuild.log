@@ -1,47 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\Users\william\Projects\skeletonmvc\Documentation\Documentation.shfbproj" started="12/06/2016 10:52:31">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\projects\skeletonmvc\Documentation\Documentation.shfbproj" started="6/12/2016 12:40:50 PM">
 <buildStep step="Initializing">
 Finding tools...
-The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+The Sandcastle tools are located in &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    C:\Users\william\Projects\skeletonmvc\Documentation
+    C:\projects\skeletonmvc\Documentation
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
-    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
-Using framework reflection data for &#39;.NET Framework 4.6&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
-Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+    c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Framework reflection data location: c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
+Using presentation style &#39;VS2013&#39; located in &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
-Lightweight Website Style Version 2016.5.28.0
-Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
+Lightweight Website Style Version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\william\Projects\skeletonmvc\SkeletonMvc.sln
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\Model\Model.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\CodeFirst\CodeFirst.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\Repository\Repository.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\DependencyInjection\DependencyInjection.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\Web\Web.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\UnitTest\UnitTest.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\IntegrationTest\IntegrationTest.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\Mapper\Mapper.csproj&#39;
-    Found project &#39;C:\Users\william\Projects\skeletonmvc\Extension\Extension.csproj&#39;
+Source: C:\projects\skeletonmvc\SkeletonMvc.sln
+    Found project &#39;C:\projects\skeletonmvc\Model\Model.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\CodeFirst\CodeFirst.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\Repository\Repository.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\DependencyInjection\DependencyInjection.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\Web\Web.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\UnitTest\UnitTest.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\IntegrationTest\IntegrationTest.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\Mapper\Mapper.csproj&#39;
+    Found project &#39;C:\projects\skeletonmvc\Extension\Extension.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\Model\bin\Debug\Model.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\CodeFirst\bin\Debug\CodeFirst.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\Repository\bin\Debug\Repository.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\DependencyInjection\bin\Debug\DependencyInjection.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\Web\bin\Web.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\UnitTest\bin\Debug\UnitTest.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\IntegrationTest\bin\Debug\IntegrationTest.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\Mapper\bin\Debug\Mapper.dll&#39;
-    Found assembly &#39;C:\Users\william\Projects\skeletonmvc\Extension\bin\Debug\Extension.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\Model\bin\Debug\Model.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\CodeFirst\bin\Debug\CodeFirst.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\Repository\bin\Debug\Repository.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\DependencyInjection\bin\Debug\DependencyInjection.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\Web\bin\Web.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\UnitTest\bin\Debug\UnitTest.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\IntegrationTest\bin\Debug\IntegrationTest.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\Mapper\bin\Debug\Mapper.dll&#39;
+    Found assembly &#39;C:\projects\skeletonmvc\Extension\bin\Debug\Extension.dll&#39;
 
 References to include (excluding framework assemblies):
     Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL
@@ -69,519 +66,518 @@ References to include (excluding framework assemblies):
     WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
 
 Copying XML comments files
-    C:\Users\william\Projects\skeletonmvc\Model\bin\Debug\Model.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Model.XML
-    C:\Users\william\Projects\skeletonmvc\CodeFirst\bin\Debug\CodeFirst.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\CodeFirst.XML
-    C:\Users\william\Projects\skeletonmvc\Repository\bin\Debug\Repository.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Repository.XML
-    C:\Users\william\Projects\skeletonmvc\DependencyInjection\bin\Debug\DependencyInjection.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\DependencyInjection.XML
-    C:\Users\william\Projects\skeletonmvc\Web\bin\Web.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Web.XML
-    C:\Users\william\Projects\skeletonmvc\UnitTest\bin\Debug\UnitTest.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\UnitTest.XML
-    C:\Users\william\Projects\skeletonmvc\IntegrationTest\bin\Debug\IntegrationTest.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\IntegrationTest.XML
-    C:\Users\william\Projects\skeletonmvc\Mapper\bin\Debug\Mapper.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Mapper.XML
-    C:\Users\william\Projects\skeletonmvc\Extension\bin\Debug\Extension.XML -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Extension.XML
+    C:\projects\skeletonmvc\Model\bin\Debug\Model.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Model.XML
+    C:\projects\skeletonmvc\CodeFirst\bin\Debug\CodeFirst.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\CodeFirst.XML
+    C:\projects\skeletonmvc\Repository\bin\Debug\Repository.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Repository.XML
+    C:\projects\skeletonmvc\DependencyInjection\bin\Debug\DependencyInjection.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\DependencyInjection.XML
+    C:\projects\skeletonmvc\Web\bin\Web.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Web.XML
+    C:\projects\skeletonmvc\UnitTest\bin\Debug\UnitTest.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\UnitTest.XML
+    C:\projects\skeletonmvc\IntegrationTest\bin\Debug\IntegrationTest.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\IntegrationTest.XML
+    C:\projects\skeletonmvc\Mapper\bin\Debug\Mapper.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Mapper.XML
+    C:\projects\skeletonmvc\Extension\bin\Debug\Extension.XML -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Extension.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0174
+</plugIn>    Last step completed in 00:00:00.0469
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0059
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/06/2016 10:52:32.
-The target &quot;BeforeGenerateProjectPriFile&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)&quot; does not exist in the project, and will be ignored.
+Build started 6/12/2016 12:40:53 PM.
 The target &quot;_ConvertPdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectPdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectMdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CopyMdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,71)&quot; does not exist in the project, and will be ignored.
-Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
-  MRefBuilder (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loaded 9 assemblies for reflection and 77 dependency assemblies.
   Wrote information on 14 namespaces, 38 types, and 107 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
-  XslTransform (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+  XslTransform (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.17
-    Last step completed in 00:00:01.2572
+Time Elapsed 00:00:04.92
+    Last step completed in 00:00:05.0158
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/06/2016 10:52:33.
-Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 6/12/2016 12:40:58 PM.
+Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  XslTransform (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  XslTransform (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
-  AddNamespaceGroups (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved
+  AddNamespaceGroups (v2015.10.10.0)
+  Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
   Added 5 namespace group entries
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
-  XslTransform (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
-  XslTransform (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+  XslTransform (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.54
-    Last step completed in 00:00:00.6040
+Time Elapsed 00:00:00.90
+    Last step completed in 00:00:00.9844
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0188
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateInheritedDocs.proj]
-Sandcastle Help File Builder and Tools, version 2016.5.28.0
-Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved
+Sandcastle Help File Builder and Tools, version 2015.10.10.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\*.xml
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Model.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\CodeFirst.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Repository.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\DependencyInjection.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Web.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\UnitTest.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\IntegrationTest.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Mapper.XML
-Indexing C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Extension.XML
-Indexed 157526 members in 135 file(s).  9 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.4.0.0\*.xml
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\Model.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\CodeFirst.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\Repository.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\DependencyInjection.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\Web.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\UnitTest.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\IntegrationTest.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\Mapper.XML
+Indexing C:\projects\skeletonmvc\Documentation\Help\Working\Extension.XML
+Indexed 159313 members in 136 file(s).  9 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:00.8658
+    Last step completed in 00:00:02.6720
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0025
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/06/2016 10:52:35.
-Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 6/12/2016 12:41:02 PM.
+Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+  XslTransform (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.09
+Time Elapsed 00:00:00.12
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1512
+    Last step completed in 00:00:00.2033
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2416
+    Last step completed in 00:00:00.2029
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\sandcastle.config
-  Updating reference topic configurations.
-  No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0120
+C:\projects\skeletonmvc\Documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0000
 </buildStep>
-<buildStep step="BuildTopics">
-Building help topics...
-[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/06/2016 10:52:35.
-Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
-BuildTopics:
-  BuildAssembler (v2016.5.28.0)
-  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
+Build started 6/12/2016 12:41:02 PM.
+Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2015.10.10.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loading configuration...
+  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\appveyor\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:DependencyInjection] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.IoC] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.IoC.GetConfiguredContainer] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:DependencyInjection.ViewFactory] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.DefaultViewFactory] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`1.Build] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`1.Build] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewFactory] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Extension] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Extension.AssemblyExtension] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;param name=&quot;assembly&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Extension.TypeExtension] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;param name=&quot;longName&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Extension.UnityExtension] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;container&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;genericInterface&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;assembly&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Mapper] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.AutoMapperConfig] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.AutoMapperConfig.RegisterMapping] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Mapper.EntityMappings] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.EntityMappings.BlogMapping] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Mapper.ViewModelMappings.Blogs] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.#ctor(Repository.IRepository{Model.Entities.Blog})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.#ctor(Repository.IRepository{Model.Entities.Blog})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Model.Entities] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.Entities.Blog] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Description] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Id] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Name] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Model.ViewModels] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogCreateModel] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.Description] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.Name] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.RowVersion] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogDetailsModel] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Description] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Id] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Name] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogEditModel] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Description] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Id] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Name] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.RowVersion] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogIndexItemModel] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Description] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Id] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Name] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogIndexModel] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexModel.Items] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Repository] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.IContext] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.SaveChanges] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.SaveChanges] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.IRepository`1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.IRepository`1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Create(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Create(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Delete(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Delete(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetAll] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetAll] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Update(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Update(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.Repository`1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.Repository`1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.#ctor(Repository.IContext)] Missing &lt;param name=&quot;dbContext&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Create(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Create(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Delete(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Delete(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetAll] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetAll] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Update(`0)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Update(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Repository.SkeletonMvcContext] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Repository.Conventions] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;param name=&quot;association&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:UnitTest] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:UnitTest.ControllerTest] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:UnitTest.ControllerTest.TestAllControllerActions] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Web] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.BundleConfig] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;param name=&quot;bundles&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.FilterConfig] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;param name=&quot;filters&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.MvcApplication] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.MvcApplication.Application_Start] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.RouteConfig] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;param name=&quot;routes&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Web.Controllers] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.BlogController] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.#ctor(Repository.IRepository{Model.Entities.Blog},DependencyInjection.ViewFactory.IViewFactory)] Missing &lt;param name=&quot;blogRepo&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.#ctor(Repository.IRepository{Model.Entities.Blog},DependencyInjection.ViewFactory.IViewFactory)] Missing &lt;param name=&quot;factory&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;param name=&quot;vm&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;param name=&quot;vm&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Index] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Index] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.ErrorController] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Error] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Error] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Forbidden] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Forbidden] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.NotFound] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.NotFound] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Unauthorized] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Unauthorized] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.HomeController] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.About] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.About] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Contact] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Contact] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Index] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Index] Missing &lt;returns&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:Web.Filters] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Web.Filters.HandleConcurrencyExceptionFilter] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Filters.HandleConcurrencyExceptionFilter.#ctor(Web.Filters.HandleConcurrencyExceptionFilter.PropertyMatchingMode)] Missing &lt;param name=&quot;propertyMatchingMode&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Web.Filters.HandleConcurrencyExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)] Missing &lt;param name=&quot;filterContext&quot;/&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [G:Web] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [G:Repository] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [G:Model] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [G:Mapper] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [G:DependencyInjection] Missing &lt;summary&gt; documentation [C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:DependencyInjection] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.IoC] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.IoC.GetConfiguredContainer] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:DependencyInjection.ViewFactory] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.DefaultViewFactory] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``1] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.DefaultViewFactory.CreateView``2(``0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`1.Build] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`1.Build] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewBuilder`2] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewBuilder`2.Build(`0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DependencyInjection.ViewFactory.IViewFactory] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``1] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TInput&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;typeparam name=&quot;TView&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DependencyInjection.ViewFactory.IViewFactory.CreateView``2(``0)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Extension] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Extension.AssemblyExtension] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.AssemblyExtension.GetLoadableTypes(System.Reflection.Assembly)] Missing &lt;param name=&quot;assembly&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Extension.TypeExtension] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.DynamicMock(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.FormattedName(System.Type,System.Boolean)] Missing &lt;param name=&quot;longName&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.TypeExtension.GetNullableType(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Extension.UnityExtension] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;container&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;genericInterface&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Extension.UnityExtension.RegisterImplementationsClosingInterface(Microsoft.Practices.Unity.IUnityContainer,System.Type,System.Reflection.Assembly)] Missing &lt;param name=&quot;assembly&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Mapper] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.AutoMapperConfig] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.AutoMapperConfig.RegisterMapping] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Mapper.EntityMappings] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.EntityMappings.BlogMapping] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Mapper.ViewModelMappings.Blogs] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.#ctor(Repository.IRepository{Model.Entities.Blog})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder.Build(System.Int32)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.#ctor(Repository.IRepository{Model.Entities.Blog})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.Build] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder.Build] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Model.Entities] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.Entities.Blog] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Description] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Id] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.Entities.Blog.Name] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Model.ViewModels] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogCreateModel] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.Description] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.Name] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogCreateModel.RowVersion] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogDetailsModel] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Description] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Id] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogDetailsModel.Name] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogEditModel] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Description] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Id] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.Name] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogEditModel.RowVersion] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogIndexItemModel] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Description] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Id] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexItemModel.Name] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Model.ViewModels.BlogIndexModel] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Model.ViewModels.BlogIndexModel.Items] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Repository] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.IContext] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Entry``1(``0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.SaveChanges] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.SaveChanges] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IContext.Set``1] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.IRepository`1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.IRepository`1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Create(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Create(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Delete(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Delete(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetAll] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetAll] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Update(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.IRepository`1.Update(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.Repository`1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.Repository`1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.#ctor(Repository.IContext)] Missing &lt;param name=&quot;dbContext&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Create(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Create(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Delete(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Delete(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetAll] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetAll] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Update(`0)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Repository`1.Update(`0)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Repository.SkeletonMvcContext] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;typeparam name=&quot;TEntity&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.SkeletonMvcContext.Set``1] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Repository.Conventions] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;param name=&quot;association&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Repository.Conventions.ForeignKeyNamingConvention.Apply(System.Data.Entity.Core.Metadata.Edm.AssociationType,System.Data.Entity.Infrastructure.DbModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:UnitTest] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:UnitTest.ControllerTest] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTest.ControllerTest.TestAllControllerActions] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Web] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.BundleConfig] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;param name=&quot;bundles&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.FilterConfig] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;param name=&quot;filters&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.MvcApplication] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.MvcApplication.Application_Start] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.RouteConfig] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;param name=&quot;routes&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Web.Controllers] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.BlogController] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.#ctor(Repository.IRepository{Model.Entities.Blog},DependencyInjection.ViewFactory.IViewFactory)] Missing &lt;param name=&quot;blogRepo&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.#ctor(Repository.IRepository{Model.Entities.Blog},DependencyInjection.ViewFactory.IViewFactory)] Missing &lt;param name=&quot;factory&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Create(Model.ViewModels.BlogCreateModel)] Missing &lt;param name=&quot;vm&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Delete(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.DeleteConfirmed(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Details(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(Model.ViewModels.BlogEditModel)] Missing &lt;param name=&quot;vm&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Edit(System.Nullable{System.Int32})] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Index] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.BlogController.Index] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.ErrorController] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Error] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Error] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Forbidden] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Forbidden] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.NotFound] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.NotFound] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Unauthorized] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.ErrorController.Unauthorized] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.Controllers.HomeController] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.About] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.About] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Contact] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Contact] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Index] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Controllers.HomeController.Index] Missing &lt;returns&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Web.Filters] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Web.Filters.HandleConcurrencyExceptionFilter] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Filters.HandleConcurrencyExceptionFilter.#ctor(Web.Filters.HandleConcurrencyExceptionFilter.PropertyMatchingMode)] Missing &lt;param name=&quot;propertyMatchingMode&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Web.Filters.HandleConcurrencyExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)] Missing &lt;param name=&quot;filterContext&quot;/&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Web] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Repository] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Model] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Mapper] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:DependencyInjection] Missing &lt;summary&gt; documentation [C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj]
   Processed 219 topic(s)
   219 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 7 of 30.
-  SaveComponent: Waiting for the document writer task to finish (84 Website API file(s) remaining)...
-Done Building Project &quot;C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 284 entries
+Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:08.14
-    Last step completed in 00:00:08.2298
+Time Elapsed 00:01:38.30
+    Last step completed in 00:01:38.6763
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0015
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
-Sandcastle Help File Builder and Tools, version 2016.5.28.0
-Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved
+Sandcastle Help File Builder and Tools, version 2015.10.10.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website
+Processing website files in C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website
 Processed 219 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\WebKI.xml
-Saving website table of contents to C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.7295
+Saving website keyword index to C:\projects\skeletonmvc\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to C:\projects\skeletonmvc\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00.3281
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\william\Projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.3168
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertCaution.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertNote.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\AlertSecurity.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\CFW.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\CodeExample.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\favicon.ico
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privclass.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privevent.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privextension.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privfield.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protclass.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protevent.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protextension.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protfield.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\SectionExpanded.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\static.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\xna.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\branding.js
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-Help1.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-Website.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\styles\branding.css
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\index.html
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\search.html
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.aspx
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.inc.php
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\SearchHelp.php
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\Web.Config
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\Search.png
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocClose.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocExpanded.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocOpen.gif
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
+c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.3282
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.8507
+</plugIn>    Last step completed in 00:00:00.6880
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 417 files for the website content
-    Last step completed in 00:00:00.3727
+    Last step completed in 00:00:00.2026
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0992
+    Last step completed in 00:00:00.1250
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/06/2016 10:52:46.  Total time: 00:00:14.1991
+Build completed successfully at 6/12/2016 12:42:42 PM.  Total time: 00:01:52.0050
 
 </buildStep>
 </shfbBuild>
