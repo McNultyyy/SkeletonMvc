@@ -10,6 +10,7 @@ cache:
 - Web/node_modules
 - '%LocalAppData%\NuGet\Cache'
 install:
+- choco install -y powershell
 - choco install -y sandcastle
 environment:
   SHFBROOT: c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder
