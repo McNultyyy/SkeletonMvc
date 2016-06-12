@@ -1,3 +1,4 @@
+Set-PSDebug -Trace 1+
 cd Documentation/Help
 git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
