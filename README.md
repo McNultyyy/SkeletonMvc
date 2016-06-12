@@ -1,6 +1,8 @@
 #SkeletonMvc :skull:
 A skeleton project for general MVC projects.
 
+[Documentation](http://mcnultyyy.github.io/SkeletonMvc "SkeletonMvc Documentation")
+
 [![Build status](https://ci.appveyor.com/api/projects/status/95cde753hdyvnkvu?svg=true)](https://ci.appveyor.com/project/william/skeletonmvc)
 
 ---
@@ -10,6 +12,9 @@ Currently uses EF codefirst migrations.
 
 ###Dependency Injection
 Uses Unity for dependency injection, should be relatively easy to change to Ninject, StructureMap etc...
+
+###Documentation
+Contains the SandCastle documentation project.
 
 ###Model
 This is where the DAO entities reside. All entities contain a mapping class.
