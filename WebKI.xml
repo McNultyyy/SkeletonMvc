@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="About method" Url="html/4e5d90d3-c48b-ec5e-7a0c-739b49e1482b.htm" />
+  <HelpKINode Title="Application_Start method" Url="html/1226f6e2-1117-405e-0af5-1ea3085042bb.htm" />
+  <HelpKINode Title="Apply method" Url="html/12859499-348c-e4e5-9895-5cca3a945af8.htm" />
+  <HelpKINode Title="AssemblyExtension class">
+    <HelpKINode Title="AssemblyExtension Class" Url="html/16b5f4cf-9f24-193c-77ca-9c5d17d16ea2.htm" />
+    <HelpKINode Title="about AssemblyExtension class" Url="html/16b5f4cf-9f24-193c-77ca-9c5d17d16ea2.htm" />
+    <HelpKINode Title="methods" Url="html/7a843702-a1f5-1632-bef2-72ff73e05f5c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyExtension.GetLoadableTypes method" Url="html/ec2b1944-cd98-4c98-bccb-a54cae9e12d5.htm" />
+  <HelpKINode Title="AutoMapperConfig class">
+    <HelpKINode Title="AutoMapperConfig Class" Url="html/307963ea-2e3c-cc5f-3f76-0c99845af722.htm" />
+    <HelpKINode Title="about AutoMapperConfig class" Url="html/307963ea-2e3c-cc5f-3f76-0c99845af722.htm" />
+    <HelpKINode Title="methods" Url="html/8c43bb51-9a37-13d9-fcb7-13976d1cef64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AutoMapperConfig.RegisterMapping method" Url="html/afde6bfd-e2bc-dbf9-6639-0ecda4bc44d6.htm" />
+  <HelpKINode Title="BaseEntity class">
+    <HelpKINode Title="BaseEntity Class" Url="html/35559254-db0b-b069-f932-0e37707bc2f4.htm" />
+    <HelpKINode Title="about BaseEntity class" Url="html/35559254-db0b-b069-f932-0e37707bc2f4.htm" />
+    <HelpKINode Title="constructor" Url="html/bffd9365-6da3-25dc-b0cf-b2bbc21d0ed3.htm" />
+    <HelpKINode Title="methods" Url="html/001614f8-3d70-7b68-d239-cf9cc3db9951.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseEntity.BaseEntity constructor" Url="html/bffd9365-6da3-25dc-b0cf-b2bbc21d0ed3.htm" />
+  <HelpKINode Title="Blog class">
+    <HelpKINode Title="Blog Class" Url="html/e04f2a84-3393-e39b-3357-9ae16fda4710.htm" />
+    <HelpKINode Title="about Blog class" Url="html/e04f2a84-3393-e39b-3357-9ae16fda4710.htm" />
+    <HelpKINode Title="constructor" Url="html/df58c896-5684-504b-c5a4-dd164186dd28.htm" />
+    <HelpKINode Title="methods" Url="html/68f79457-5768-391e-f47e-52d73903b115.htm" />
+    <HelpKINode Title="properties" Url="html/796a26f1-e3e4-acb9-97c2-0ab633c46a4f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Blog.Blog constructor" Url="html/df58c896-5684-504b-c5a4-dd164186dd28.htm" />
+  <HelpKINode Title="Blog.Description property" Url="html/17f1bbcf-776d-42ce-e941-5aaeca8e17d2.htm" />
+  <HelpKINode Title="Blog.Id property" Url="html/b77483d8-d470-ff30-13f4-66d1d8c18265.htm" />
+  <HelpKINode Title="Blog.Name property" Url="html/d01482c9-091d-2d71-2502-7077f7a1749c.htm" />
+  <HelpKINode Title="BlogController class">
+    <HelpKINode Title="BlogController Class" Url="html/af6a8e24-9d1b-fb61-672e-9370117e8682.htm" />
+    <HelpKINode Title="about BlogController class" Url="html/af6a8e24-9d1b-fb61-672e-9370117e8682.htm" />
+    <HelpKINode Title="constructor" Url="html/1cef48cb-2d13-aa87-e7b3-448b58814589.htm" />
+    <HelpKINode Title="methods" Url="html/ce84917c-ac60-29d9-f8a2-63169a753133.htm" />
+    <HelpKINode Title="properties" Url="html/56a2d799-52c0-fd36-dc78-0c342d8680c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogController.BlogController constructor" Url="html/1cef48cb-2d13-aa87-e7b3-448b58814589.htm" />
+  <HelpKINode Title="BlogController.Create method" Url="html/fc7697e7-91fc-f760-1311-0648ba114508.htm" />
+  <HelpKINode Title="BlogController.Delete method" Url="html/1d1407b9-8cd2-f381-a1b0-1503eb3cae47.htm" />
+  <HelpKINode Title="BlogController.DeleteConfirmed method" Url="html/20daa4d4-e41a-d584-8ffe-04fefcc95132.htm" />
+  <HelpKINode Title="BlogController.Details method" Url="html/ea7b1613-b734-15c3-8ef4-d8d1f8b74f5a.htm" />
+  <HelpKINode Title="BlogController.Edit method" Url="html/c19a8fe8-8b8c-36d4-b37c-9252221cc427.htm" />
+  <HelpKINode Title="BlogController.Index method" Url="html/3f0afc29-1115-a345-0ecb-6973b5008b54.htm" />
+  <HelpKINode Title="BlogCreateModel class">
+    <HelpKINode Title="BlogCreateModel Class" Url="html/b1861343-ca20-4497-eb42-96279187c79a.htm" />
+    <HelpKINode Title="about BlogCreateModel class" Url="html/b1861343-ca20-4497-eb42-96279187c79a.htm" />
+    <HelpKINode Title="constructor" Url="html/292e7668-f82b-b366-845c-65a88f586294.htm" />
+    <HelpKINode Title="methods" Url="html/b0400c8a-fed9-d71f-6f49-1912f45d99b7.htm" />
+    <HelpKINode Title="properties" Url="html/a59b7aca-b867-e35c-6533-8a52dde6366d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogCreateModel.BlogCreateModel constructor" Url="html/292e7668-f82b-b366-845c-65a88f586294.htm" />
+  <HelpKINode Title="BlogCreateModel.Description property" Url="html/98eb4637-fc6b-92ac-0774-ddb6612a11cd.htm" />
+  <HelpKINode Title="BlogCreateModel.Name property" Url="html/ad235a96-45e9-6a55-a24c-60cbdce06558.htm" />
+  <HelpKINode Title="BlogCreateModel.RowVersion property" Url="html/c826c502-85b3-261a-3fbe-f4bfcdb9f4de.htm" />
+  <HelpKINode Title="BlogCreateViewBuilder class">
+    <HelpKINode Title="BlogCreateViewBuilder Class" Url="html/5d40ca4c-cc49-a7e2-f122-e256951e19b8.htm" />
+    <HelpKINode Title="about BlogCreateViewBuilder class" Url="html/5d40ca4c-cc49-a7e2-f122-e256951e19b8.htm" />
+    <HelpKINode Title="constructor" Url="html/54e743b5-1ffd-bd6b-c241-fc5ff258b4a0.htm" />
+    <HelpKINode Title="methods" Url="html/47863da0-8795-2c3f-489f-c6d4f053e64a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogCreateViewBuilder.BlogCreateViewBuilder constructor" Url="html/54e743b5-1ffd-bd6b-c241-fc5ff258b4a0.htm" />
+  <HelpKINode Title="BlogCreateViewBuilder.Build method" Url="html/cb27036a-884b-87d9-0231-e1679be63e7c.htm" />
+  <HelpKINode Title="BlogDetailsModel class">
+    <HelpKINode Title="BlogDetailsModel Class" Url="html/c43ade10-409a-728b-de36-2bf41ec443b7.htm" />
+    <HelpKINode Title="about BlogDetailsModel class" Url="html/c43ade10-409a-728b-de36-2bf41ec443b7.htm" />
+    <HelpKINode Title="constructor" Url="html/ca4e9686-67f3-a262-8237-46b1ebfa021c.htm" />
+    <HelpKINode Title="methods" Url="html/7f0f1b03-657d-8651-6f81-2089d845ec44.htm" />
+    <HelpKINode Title="properties" Url="html/250ba14c-77db-7ca3-d229-a70ba4b4c70b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogDetailsModel.BlogDetailsModel constructor" Url="html/ca4e9686-67f3-a262-8237-46b1ebfa021c.htm" />
+  <HelpKINode Title="BlogDetailsModel.Description property" Url="html/e90302f6-57a5-dc1b-965a-c621820f7026.htm" />
+  <HelpKINode Title="BlogDetailsModel.Id property" Url="html/dbf299f5-0444-7974-dfbf-37e256c7f266.htm" />
+  <HelpKINode Title="BlogDetailsModel.Name property" Url="html/8de16a03-62a3-8863-c3ee-3a66a8082597.htm" />
+  <HelpKINode Title="BlogDetailsViewBuilder class">
+    <HelpKINode Title="BlogDetailsViewBuilder Class" Url="html/389db92e-9ff5-d4e9-7ca1-a25a7e875d1c.htm" />
+    <HelpKINode Title="about BlogDetailsViewBuilder class" Url="html/389db92e-9ff5-d4e9-7ca1-a25a7e875d1c.htm" />
+    <HelpKINode Title="constructor" Url="html/bd28a535-8c57-b40c-c307-de996855ada8.htm" />
+    <HelpKINode Title="methods" Url="html/0678a9ad-df17-b12d-9dd2-fb4cb9c12683.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogDetailsViewBuilder.BlogDetailsViewBuilder constructor" Url="html/bd28a535-8c57-b40c-c307-de996855ada8.htm" />
+  <HelpKINode Title="BlogDetailsViewBuilder.Build method" Url="html/241a77de-e853-460c-b215-472cc14da94f.htm" />
+  <HelpKINode Title="BlogEditModel class">
+    <HelpKINode Title="BlogEditModel Class" Url="html/aefe3bb8-e46c-4335-b33a-025687b2c616.htm" />
+    <HelpKINode Title="about BlogEditModel class" Url="html/aefe3bb8-e46c-4335-b33a-025687b2c616.htm" />
+    <HelpKINode Title="constructor" Url="html/bc1e2353-43ca-16ad-8225-52ac471cce74.htm" />
+    <HelpKINode Title="methods" Url="html/47f28aa0-15b5-a526-a879-067865e7d0bf.htm" />
+    <HelpKINode Title="properties" Url="html/e3007dd3-12ed-9ca6-7789-51c0088bd8fe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogEditModel.BlogEditModel constructor" Url="html/bc1e2353-43ca-16ad-8225-52ac471cce74.htm" />
+  <HelpKINode Title="BlogEditModel.Description property" Url="html/5f79625c-8fb6-cdd4-b0e9-08f61e1ab88c.htm" />
+  <HelpKINode Title="BlogEditModel.Id property" Url="html/c86e81b7-3676-d80a-b027-746e31bcc4fa.htm" />
+  <HelpKINode Title="BlogEditModel.Name property" Url="html/3aa779ed-68c8-c2af-7300-26ba7e96b404.htm" />
+  <HelpKINode Title="BlogEditModel.RowVersion property" Url="html/0f3371bb-7bbf-6cbe-7d57-3be50b5f83cb.htm" />
+  <HelpKINode Title="BlogEditViewBuilder class">
+    <HelpKINode Title="BlogEditViewBuilder Class" Url="html/a81d281b-8239-2033-1ef0-85986e0bd086.htm" />
+    <HelpKINode Title="about BlogEditViewBuilder class" Url="html/a81d281b-8239-2033-1ef0-85986e0bd086.htm" />
+    <HelpKINode Title="constructor" Url="html/f1791c9c-d0ec-c81a-5574-7d10556eae77.htm" />
+    <HelpKINode Title="methods" Url="html/fbd1982f-ec0b-d113-5cc3-e2f5f6425a41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogEditViewBuilder.BlogEditViewBuilder constructor" Url="html/f1791c9c-d0ec-c81a-5574-7d10556eae77.htm" />
+  <HelpKINode Title="BlogEditViewBuilder.Build method" Url="html/ef90aa61-4360-5eed-2658-6c63eb11fdb7.htm" />
+  <HelpKINode Title="BlogIndexItemModel class">
+    <HelpKINode Title="BlogIndexItemModel Class" Url="html/bb57f7dd-0558-6c7b-b426-0765db13809d.htm" />
+    <HelpKINode Title="about BlogIndexItemModel class" Url="html/bb57f7dd-0558-6c7b-b426-0765db13809d.htm" />
+    <HelpKINode Title="constructor" Url="html/bae8037c-8dda-edf9-b9d0-497b9dc6fc3e.htm" />
+    <HelpKINode Title="methods" Url="html/4913dde0-2fa6-f35d-6d6c-98e0dbc57747.htm" />
+    <HelpKINode Title="properties" Url="html/fdeb44c0-646c-4225-d9fb-9ae415448ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogIndexItemModel.BlogIndexItemModel constructor" Url="html/bae8037c-8dda-edf9-b9d0-497b9dc6fc3e.htm" />
+  <HelpKINode Title="BlogIndexItemModel.Description property" Url="html/d23ad947-aa48-33f5-d290-a1add5f4024b.htm" />
+  <HelpKINode Title="BlogIndexItemModel.Id property" Url="html/04fe10b3-a287-d6f9-537b-398ab467061d.htm" />
+  <HelpKINode Title="BlogIndexItemModel.Name property" Url="html/c6c6831c-f251-a142-4945-84dc424b97a7.htm" />
+  <HelpKINode Title="BlogIndexModel class">
+    <HelpKINode Title="BlogIndexModel Class" Url="html/951d3d73-57cd-f76b-115c-0aedfa917509.htm" />
+    <HelpKINode Title="about BlogIndexModel class" Url="html/951d3d73-57cd-f76b-115c-0aedfa917509.htm" />
+    <HelpKINode Title="constructor" Url="html/e11349fd-f820-c3df-1ad5-42a9aa3f67d3.htm" />
+    <HelpKINode Title="methods" Url="html/4cf62f82-6ccb-cbad-9a8e-efd03ba1e1fa.htm" />
+    <HelpKINode Title="properties" Url="html/75900483-7c1d-7b77-2d57-96fe73b4a785.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogIndexModel.BlogIndexModel constructor" Url="html/e11349fd-f820-c3df-1ad5-42a9aa3f67d3.htm" />
+  <HelpKINode Title="BlogIndexModel.Items property" Url="html/37d1c3ca-da54-20aa-6f65-620a37a590d5.htm" />
+  <HelpKINode Title="BlogIndexViewBuilder class">
+    <HelpKINode Title="BlogIndexViewBuilder Class" Url="html/96ee91a5-fbf7-e742-49fd-a5350404eff9.htm" />
+    <HelpKINode Title="about BlogIndexViewBuilder class" Url="html/96ee91a5-fbf7-e742-49fd-a5350404eff9.htm" />
+    <HelpKINode Title="constructor" Url="html/7aeaed7a-0070-ba0b-1a51-87e57f4bb800.htm" />
+    <HelpKINode Title="methods" Url="html/27f01817-a1f6-12d6-2c2a-68b66c4a8372.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogIndexViewBuilder.BlogIndexViewBuilder constructor" Url="html/7aeaed7a-0070-ba0b-1a51-87e57f4bb800.htm" />
+  <HelpKINode Title="BlogIndexViewBuilder.Build method" Url="html/a191ba89-10bc-d8e1-602e-f8cc42bcc70e.htm" />
+  <HelpKINode Title="BlogMapping class">
+    <HelpKINode Title="BlogMapping Class" Url="html/5b538e6b-72bb-93d5-eaef-b468a24a1620.htm" />
+    <HelpKINode Title="about BlogMapping class" Url="html/5b538e6b-72bb-93d5-eaef-b468a24a1620.htm" />
+    <HelpKINode Title="constructor" Url="html/82a7dfa7-2575-7d01-dec3-e790da2f40a3.htm" />
+    <HelpKINode Title="methods" Url="html/40e12084-c230-6e0e-98ce-c674187e3436.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlogMapping.BlogMapping constructor" Url="html/82a7dfa7-2575-7d01-dec3-e790da2f40a3.htm" />
+  <HelpKINode Title="Build method">
+    <HelpKINode Title="BlogCreateViewBuilder.Build Method " Url="html/cb27036a-884b-87d9-0231-e1679be63e7c.htm" />
+    <HelpKINode Title="BlogDetailsViewBuilder.Build Method " Url="html/241a77de-e853-460c-b215-472cc14da94f.htm" />
+    <HelpKINode Title="BlogEditViewBuilder.Build Method " Url="html/ef90aa61-4360-5eed-2658-6c63eb11fdb7.htm" />
+    <HelpKINode Title="BlogIndexViewBuilder.Build Method " Url="html/a191ba89-10bc-d8e1-602e-f8cc42bcc70e.htm" />
+    <HelpKINode Title="IViewBuilder(TInput, TView).Build Method " Url="html/3e23b41e-d0b7-6d05-32bd-9ae654e60e8a.htm" />
+    <HelpKINode Title="IViewBuilder(TView).Build Method " Url="html/2ad6c72b-229a-9eb7-3c9c-c241b41dbdd2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BundleConfig class">
+    <HelpKINode Title="BundleConfig Class" Url="html/0cbcfff8-d701-7a3f-2f8b-f4dea0ce1d46.htm" />
+    <HelpKINode Title="about BundleConfig class" Url="html/0cbcfff8-d701-7a3f-2f8b-f4dea0ce1d46.htm" />
+    <HelpKINode Title="constructor" Url="html/a79d57b8-4c4f-abda-c0f7-4aac06193528.htm" />
+    <HelpKINode Title="methods" Url="html/7996da47-3469-b3cc-e47e-0979b83cba49.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BundleConfig.BundleConfig constructor" Url="html/a79d57b8-4c4f-abda-c0f7-4aac06193528.htm" />
+  <HelpKINode Title="BundleConfig.RegisterBundles method" Url="html/7280d62b-4e88-a008-f928-393db8b935a8.htm" />
+  <HelpKINode Title="Contact method" Url="html/a1dca282-5873-ea37-42b4-9a81e8e17af0.htm" />
+  <HelpKINode Title="ControllerTest class">
+    <HelpKINode Title="ControllerTest Class" Url="html/1bea6459-09ac-314f-0b55-cdaf2436b2d0.htm" />
+    <HelpKINode Title="about ControllerTest class" Url="html/1bea6459-09ac-314f-0b55-cdaf2436b2d0.htm" />
+    <HelpKINode Title="constructor" Url="html/c7918c92-5d6a-c0ab-adff-c0771689f809.htm" />
+    <HelpKINode Title="methods" Url="html/bddf3a4e-a786-111b-2b24-b57f7fdf1124.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControllerTest.ControllerTest constructor" Url="html/c7918c92-5d6a-c0ab-adff-c0771689f809.htm" />
+  <HelpKINode Title="ControllerTest.TestAllControllerActions method" Url="html/715680b5-ff34-a49d-e09a-c2792535291d.htm" />
+  <HelpKINode Title="Create method">
+    <HelpKINode Title="BlogController.Create Method " Url="html/fc7697e7-91fc-f760-1311-0648ba114508.htm" />
+    <HelpKINode Title="IRepository(TEntity).Create Method " Url="html/c3deacc9-794d-a0d0-f4ed-51008f652e6a.htm" />
+    <HelpKINode Title="Repository(TEntity).Create Method " Url="html/a7651cbb-9635-a46d-243a-0b9caf713657.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateView method">
+    <HelpKINode Title="DefaultViewFactory.CreateView Method " Url="html/4909e643-8ca1-3f25-474a-cd694c5eb823.htm" />
+    <HelpKINode Title="IViewFactory.CreateView Method " Url="html/b03cdb7c-db69-548f-c477-7255972d835f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultViewFactory class">
+    <HelpKINode Title="DefaultViewFactory Class" Url="html/8f68a36b-70b0-44bb-2c7d-6d6f71fd6b12.htm" />
+    <HelpKINode Title="about DefaultViewFactory class" Url="html/8f68a36b-70b0-44bb-2c7d-6d6f71fd6b12.htm" />
+    <HelpKINode Title="constructor" Url="html/c7f8b87e-d212-a962-f771-79a2d5eb3dfc.htm" />
+    <HelpKINode Title="methods" Url="html/5064d9eb-d424-fdf5-ebb8-dca727d2208c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultViewFactory.CreateView method" Url="html/4909e643-8ca1-3f25-474a-cd694c5eb823.htm" />
+  <HelpKINode Title="DefaultViewFactory.DefaultViewFactory constructor" Url="html/c7f8b87e-d212-a962-f771-79a2d5eb3dfc.htm" />
+  <HelpKINode Title="Delete method">
+    <HelpKINode Title="BlogController.Delete Method " Url="html/1d1407b9-8cd2-f381-a1b0-1503eb3cae47.htm" />
+    <HelpKINode Title="IRepository(TEntity).Delete Method " Url="html/e2bbc0c1-ccf5-6bc5-8965-89c157c676f4.htm" />
+    <HelpKINode Title="Repository(TEntity).Delete Method " Url="html/cfcd428a-128e-0a61-3c5f-42d1d565ed44.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteConfirmed method" Url="html/20daa4d4-e41a-d584-8ffe-04fefcc95132.htm" />
+  <HelpKINode Title="DependencyInjection namespace" Url="html/f8cfc33a-0804-b38c-782c-801f4cf6aa5f.htm" />
+  <HelpKINode Title="DependencyInjection.IoC class" Url="html/3547cfc3-b01f-b9eb-919c-42cea9a385af.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory namespace" Url="html/9af40913-2d3b-76c9-7920-ae1be2f9f50f.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.DefaultViewFactory class" Url="html/8f68a36b-70b0-44bb-2c7d-6d6f71fd6b12.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.IViewBuilder(Of TInput, TView) interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.IViewBuilder(Of TView) interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.IViewBuilder&lt;TInput, TView&gt; interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.IViewBuilder&lt;TView&gt; interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+  <HelpKINode Title="DependencyInjection.ViewFactory.IViewFactory interface" Url="html/3ef85d06-6f35-1722-9be5-8c50d9d940f5.htm" />
+  <HelpKINode Title="Description property">
+    <HelpKINode Title="Blog.Description Property " Url="html/17f1bbcf-776d-42ce-e941-5aaeca8e17d2.htm" />
+    <HelpKINode Title="BlogCreateModel.Description Property " Url="html/98eb4637-fc6b-92ac-0774-ddb6612a11cd.htm" />
+    <HelpKINode Title="BlogDetailsModel.Description Property " Url="html/e90302f6-57a5-dc1b-965a-c621820f7026.htm" />
+    <HelpKINode Title="BlogEditModel.Description Property " Url="html/5f79625c-8fb6-cdd4-b0e9-08f61e1ab88c.htm" />
+    <HelpKINode Title="BlogIndexItemModel.Description Property " Url="html/d23ad947-aa48-33f5-d290-a1add5f4024b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Details method" Url="html/ea7b1613-b734-15c3-8ef4-d8d1f8b74f5a.htm" />
+  <HelpKINode Title="DontDisplayFieldClashes enumeration member" Url="html/959819fb-dc50-32e3-81d5-70b51bbcce0a.htm" />
+  <HelpKINode Title="DynamicMock method" Url="html/eb53b423-0436-67ea-017e-ca51187d15aa.htm" />
+  <HelpKINode Title="Edit method" Url="html/c19a8fe8-8b8c-36d4-b37c-9252221cc427.htm" />
+  <HelpKINode Title="Entity class">
+    <HelpKINode Title="Entity Class" Url="html/ad38d256-eeed-5f6f-b1ec-70ac87e00cca.htm" />
+    <HelpKINode Title="about Entity class" Url="html/ad38d256-eeed-5f6f-b1ec-70ac87e00cca.htm" />
+    <HelpKINode Title="constructor" Url="html/502a24c7-589d-89fa-b029-28bb934481bc.htm" />
+    <HelpKINode Title="methods" Url="html/3ed467b7-207d-2866-dfce-8e34998bb831.htm" />
+    <HelpKINode Title="properties" Url="html/72873129-8dd2-b63b-bbd4-bcf11a7836dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Entity.Entity constructor" Url="html/502a24c7-589d-89fa-b029-28bb934481bc.htm" />
+  <HelpKINode Title="Entity.Id property" Url="html/651574c0-a7d1-2fc3-78ac-8074d4ac900a.htm" />
+  <HelpKINode Title="Entity.RowVersion property" Url="html/07a641cb-f327-4cf8-29d4-cb73c9a5f2d7.htm" />
+  <HelpKINode Title="Entry(Of TEntity) method" Url="html/53d0ccde-5d98-2c7d-7488-f5003986625f.htm" />
+  <HelpKINode Title="Entry&lt;TEntity&gt; method" Url="html/53d0ccde-5d98-2c7d-7488-f5003986625f.htm" />
+  <HelpKINode Title="Error method" Url="html/089b13ff-69a0-100b-14ff-49fb030c2c23.htm" />
+  <HelpKINode Title="ErrorController class">
+    <HelpKINode Title="ErrorController Class" Url="html/4e9ce878-ca11-50f8-c889-68f201507ce1.htm" />
+    <HelpKINode Title="about ErrorController class" Url="html/4e9ce878-ca11-50f8-c889-68f201507ce1.htm" />
+    <HelpKINode Title="constructor" Url="html/c473671f-8b18-4b2a-d822-b473b0a2fba6.htm" />
+    <HelpKINode Title="methods" Url="html/4e8cd473-4548-166f-0f4b-ec185928c1d3.htm" />
+    <HelpKINode Title="properties" Url="html/cd717a56-1baa-760f-8f91-25bc4fe6bcea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorController.Error method" Url="html/089b13ff-69a0-100b-14ff-49fb030c2c23.htm" />
+  <HelpKINode Title="ErrorController.ErrorController constructor" Url="html/c473671f-8b18-4b2a-d822-b473b0a2fba6.htm" />
+  <HelpKINode Title="ErrorController.Forbidden method" Url="html/7316951b-b619-edcd-74c1-874ff5f910f3.htm" />
+  <HelpKINode Title="ErrorController.NotFound method" Url="html/8a45453a-433e-d3a0-2771-9837a51a8ee9.htm" />
+  <HelpKINode Title="ErrorController.Unauthorized method" Url="html/3e497ad9-2450-429e-c57b-4def2c1bad08.htm" />
+  <HelpKINode Title="Extension namespace" Url="html/5d69ab6a-0a21-4420-b7b9-a4b0d9147b36.htm" />
+  <HelpKINode Title="Extension.AssemblyExtension class" Url="html/16b5f4cf-9f24-193c-77ca-9c5d17d16ea2.htm" />
+  <HelpKINode Title="Extension.TypeExtension class" Url="html/f62528cc-255e-3ca1-9afb-d0c32c3ef8aa.htm" />
+  <HelpKINode Title="Extension.UnityExtension class" Url="html/11cd67d6-e4b8-244b-91ac-f2a791d72323.htm" />
+  <HelpKINode Title="FilterConfig class">
+    <HelpKINode Title="FilterConfig Class" Url="html/8c5b1e2b-0820-4408-1ad2-0dfa3746b283.htm" />
+    <HelpKINode Title="about FilterConfig class" Url="html/8c5b1e2b-0820-4408-1ad2-0dfa3746b283.htm" />
+    <HelpKINode Title="constructor" Url="html/0f38c76a-9a50-694e-f9af-b926f8ff9a0b.htm" />
+    <HelpKINode Title="methods" Url="html/aabac4a3-1ffd-826b-170c-8aa587079f34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilterConfig.FilterConfig constructor" Url="html/0f38c76a-9a50-694e-f9af-b926f8ff9a0b.htm" />
+  <HelpKINode Title="FilterConfig.RegisterGlobalFilters method" Url="html/7e6bacf8-6b35-b200-de94-0a79120023b5.htm" />
+  <HelpKINode Title="Forbidden method" Url="html/7316951b-b619-edcd-74c1-874ff5f910f3.htm" />
+  <HelpKINode Title="ForeignKeyNamingConvention class">
+    <HelpKINode Title="ForeignKeyNamingConvention Class" Url="html/d0dbd7f9-d9bf-dcc2-c480-b4388ec4c4a0.htm" />
+    <HelpKINode Title="about ForeignKeyNamingConvention class" Url="html/d0dbd7f9-d9bf-dcc2-c480-b4388ec4c4a0.htm" />
+    <HelpKINode Title="constructor" Url="html/3ae8cd34-c10e-da89-a7e3-16571349ab51.htm" />
+    <HelpKINode Title="methods" Url="html/0c640f85-e4a0-667b-9949-9a564c7244cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForeignKeyNamingConvention.Apply method" Url="html/12859499-348c-e4e5-9895-5cca3a945af8.htm" />
+  <HelpKINode Title="ForeignKeyNamingConvention.ForeignKeyNamingConvention constructor" Url="html/3ae8cd34-c10e-da89-a7e3-16571349ab51.htm" />
+  <HelpKINode Title="FormattedName method" Url="html/703d3fac-29a8-52db-4ed5-3da156e614f2.htm" />
+  <HelpKINode Title="Get method">
+    <HelpKINode Title="IRepository(TEntity).Get Method " Url="html/036adaf0-d126-d30d-ad6c-df4d58ffb1d0.htm" />
+    <HelpKINode Title="Repository(TEntity).Get Method " Url="html/055d9c16-1b8a-24db-338d-8cbfaf5cb3f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAll method">
+    <HelpKINode Title="IRepository(TEntity).GetAll Method " Url="html/509844ea-3440-a11f-1fa1-a09ae4820e51.htm" />
+    <HelpKINode Title="Repository(TEntity).GetAll Method " Url="html/0211cc45-a8d4-6eac-5d2c-6e8afbf9987a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetById method">
+    <HelpKINode Title="IRepository(TEntity).GetById Method " Url="html/69650ad0-76f0-b48b-ea89-8f25c19edbc8.htm" />
+    <HelpKINode Title="Repository(TEntity).GetById Method " Url="html/7e207faa-818d-f752-cce5-640ab9665cf1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetConfiguredContainer method" Url="html/91a94a19-7703-c25c-f18c-815f4381a10b.htm" />
+  <HelpKINode Title="GetLoadableTypes method" Url="html/ec2b1944-cd98-4c98-bccb-a54cae9e12d5.htm" />
+  <HelpKINode Title="GetNullableType method" Url="html/88e2f0fd-1b33-c208-69eb-b3e0613ad717.htm" />
+  <HelpKINode Title="HandleConcurrencyExceptionFilter class">
+    <HelpKINode Title="HandleConcurrencyExceptionFilter Class" Url="html/7c61d3d5-12fe-a560-d4ec-c993c32edf2e.htm" />
+    <HelpKINode Title="about HandleConcurrencyExceptionFilter class" Url="html/7c61d3d5-12fe-a560-d4ec-c993c32edf2e.htm" />
+    <HelpKINode Title="constructor" Url="html/50a30599-e1a5-dcd0-1e8f-4a9667b27257.htm" />
+    <HelpKINode Title="methods" Url="html/195d3817-6850-1e4d-31a0-c77ec567a4ac.htm" />
+    <HelpKINode Title="properties" Url="html/967adc9a-a8e5-5746-0553-b6268f36b230.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HandleConcurrencyExceptionFilter.HandleConcurrencyExceptionFilter constructor" Url="html/50a30599-e1a5-dcd0-1e8f-4a9667b27257.htm" />
+  <HelpKINode Title="HandleConcurrencyExceptionFilter.OnException method" Url="html/a82c4dcc-5eca-4ff6-d75d-92f23992e006.htm" />
+  <HelpKINode Title="HandleConcurrencyExceptionFilter.PropertyMatchingMode enumeration" Url="html/959819fb-dc50-32e3-81d5-70b51bbcce0a.htm" />
+  <HelpKINode Title="HomeController class">
+    <HelpKINode Title="HomeController Class" Url="html/eb2abc71-fa35-80eb-bfa9-9d289e8d9ead.htm" />
+    <HelpKINode Title="about HomeController class" Url="html/eb2abc71-fa35-80eb-bfa9-9d289e8d9ead.htm" />
+    <HelpKINode Title="constructor" Url="html/cface1e7-662a-d308-6574-6cfd52235f7a.htm" />
+    <HelpKINode Title="methods" Url="html/510906fc-4cc3-6991-cd77-793fa74a2c23.htm" />
+    <HelpKINode Title="properties" Url="html/09350ac1-c939-cd16-aba1-f2d193d6aef3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HomeController.About method" Url="html/4e5d90d3-c48b-ec5e-7a0c-739b49e1482b.htm" />
+  <HelpKINode Title="HomeController.Contact method" Url="html/a1dca282-5873-ea37-42b4-9a81e8e17af0.htm" />
+  <HelpKINode Title="HomeController.HomeController constructor" Url="html/cface1e7-662a-d308-6574-6cfd52235f7a.htm" />
+  <HelpKINode Title="HomeController.Index method" Url="html/f8c547ff-8800-2eac-b2a2-7647b50b340f.htm" />
+  <HelpKINode Title="IContext interface">
+    <HelpKINode Title="IContext Interface" Url="html/e8ecf3df-9bc3-566d-409c-765ac3ef8f7b.htm" />
+    <HelpKINode Title="about IContext interface" Url="html/e8ecf3df-9bc3-566d-409c-765ac3ef8f7b.htm" />
+    <HelpKINode Title="methods" Url="html/ca7a9c14-86fc-fb88-10be-7e27e713403c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IContext.Entry(Of TEntity) method" Url="html/53d0ccde-5d98-2c7d-7488-f5003986625f.htm" />
+  <HelpKINode Title="IContext.Entry&lt;TEntity&gt; method" Url="html/53d0ccde-5d98-2c7d-7488-f5003986625f.htm" />
+  <HelpKINode Title="IContext.SaveChanges method" Url="html/a795bcf9-114b-daf7-3d6e-2e34eef9956a.htm" />
+  <HelpKINode Title="IContext.Set(Of TEntity) method" Url="html/4040c300-520e-d30b-a127-5fe594253358.htm" />
+  <HelpKINode Title="IContext.Set&lt;TEntity&gt; method" Url="html/4040c300-520e-d30b-a127-5fe594253358.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="Blog.Id Property " Url="html/b77483d8-d470-ff30-13f4-66d1d8c18265.htm" />
+    <HelpKINode Title="BlogDetailsModel.Id Property " Url="html/dbf299f5-0444-7974-dfbf-37e256c7f266.htm" />
+    <HelpKINode Title="BlogEditModel.Id Property " Url="html/c86e81b7-3676-d80a-b027-746e31bcc4fa.htm" />
+    <HelpKINode Title="BlogIndexItemModel.Id Property " Url="html/04fe10b3-a287-d6f9-537b-398ab467061d.htm" />
+    <HelpKINode Title="Entity.Id Property " Url="html/651574c0-a7d1-2fc3-78ac-8074d4ac900a.htm" />
+    <HelpKINode Title="IEntity.Id Property " Url="html/03e71f9e-8945-5d7f-1d64-29d63e3df7b2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEntity interface">
+    <HelpKINode Title="IEntity Interface" Url="html/a6b09813-05a2-82f4-bc15-d6fb851a9257.htm" />
+    <HelpKINode Title="about IEntity interface" Url="html/a6b09813-05a2-82f4-bc15-d6fb851a9257.htm" />
+    <HelpKINode Title="properties" Url="html/d4a12220-9be8-62a2-285d-c719f90e57fe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEntity.Id property" Url="html/03e71f9e-8945-5d7f-1d64-29d63e3df7b2.htm" />
+  <HelpKINode Title="IEntity.RowVersion property" Url="html/07503cf1-7b6d-fa9d-2bcc-1e9165e74916.htm" />
+  <HelpKINode Title="Index method">
+    <HelpKINode Title="BlogController.Index Method " Url="html/3f0afc29-1115-a345-0ecb-6973b5008b54.htm" />
+    <HelpKINode Title="HomeController.Index Method " Url="html/f8c547ff-8800-2eac-b2a2-7647b50b340f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IoC class">
+    <HelpKINode Title="IoC Class" Url="html/3547cfc3-b01f-b9eb-919c-42cea9a385af.htm" />
+    <HelpKINode Title="about IoC class" Url="html/3547cfc3-b01f-b9eb-919c-42cea9a385af.htm" />
+    <HelpKINode Title="methods" Url="html/7b679407-c207-3d07-61f9-2e8fa2263eac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IoC.GetConfiguredContainer method" Url="html/91a94a19-7703-c25c-f18c-815f4381a10b.htm" />
+  <HelpKINode Title="IRepository(Of TEntity) interface">
+    <HelpKINode Title="IRepository(TEntity) Interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+    <HelpKINode Title="about IRepository(Of TEntity) interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+    <HelpKINode Title="methods" Url="html/979e2913-c030-6acf-567a-ad3842153848.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRepository(Of TEntity).Create method" Url="html/c3deacc9-794d-a0d0-f4ed-51008f652e6a.htm" />
+  <HelpKINode Title="IRepository(Of TEntity).Delete method" Url="html/e2bbc0c1-ccf5-6bc5-8965-89c157c676f4.htm" />
+  <HelpKINode Title="IRepository(Of TEntity).Get method" Url="html/036adaf0-d126-d30d-ad6c-df4d58ffb1d0.htm" />
+  <HelpKINode Title="IRepository(Of TEntity).GetAll method" Url="html/509844ea-3440-a11f-1fa1-a09ae4820e51.htm" />
+  <HelpKINode Title="IRepository(Of TEntity).GetById method" Url="html/69650ad0-76f0-b48b-ea89-8f25c19edbc8.htm" />
+  <HelpKINode Title="IRepository(Of TEntity).Update method" Url="html/b8f49d07-3f4e-fc40-6bd7-419f7e2285ff.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt; interface">
+    <HelpKINode Title="IRepository(TEntity) Interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+    <HelpKINode Title="about IRepository&lt;TEntity&gt; interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+    <HelpKINode Title="methods" Url="html/979e2913-c030-6acf-567a-ad3842153848.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.Create method" Url="html/c3deacc9-794d-a0d0-f4ed-51008f652e6a.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.Delete method" Url="html/e2bbc0c1-ccf5-6bc5-8965-89c157c676f4.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.Get method" Url="html/036adaf0-d126-d30d-ad6c-df4d58ffb1d0.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.GetAll method" Url="html/509844ea-3440-a11f-1fa1-a09ae4820e51.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.GetById method" Url="html/69650ad0-76f0-b48b-ea89-8f25c19edbc8.htm" />
+  <HelpKINode Title="IRepository&lt;TEntity&gt;.Update method" Url="html/b8f49d07-3f4e-fc40-6bd7-419f7e2285ff.htm" />
+  <HelpKINode Title="Items property" Url="html/37d1c3ca-da54-20aa-6f65-620a37a590d5.htm" />
+  <HelpKINode Title="IViewBuilder(Of TInput, TView) interface">
+    <HelpKINode Title="IViewBuilder(TInput, TView) Interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+    <HelpKINode Title="about IViewBuilder(Of TInput, TView) interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+    <HelpKINode Title="methods" Url="html/99ea3d11-c59b-47c2-57ae-12cebe572a3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IViewBuilder(Of TInput, TView).Build method" Url="html/3e23b41e-d0b7-6d05-32bd-9ae654e60e8a.htm" />
+  <HelpKINode Title="IViewBuilder(Of TView) interface">
+    <HelpKINode Title="IViewBuilder(TView) Interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+    <HelpKINode Title="about IViewBuilder(Of TView) interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+    <HelpKINode Title="methods" Url="html/fce7129e-1110-ed07-36c6-f2b8f47366d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IViewBuilder(Of TView).Build method" Url="html/2ad6c72b-229a-9eb7-3c9c-c241b41dbdd2.htm" />
+  <HelpKINode Title="IViewBuilder&lt;TInput, TView&gt; interface">
+    <HelpKINode Title="IViewBuilder(TInput, TView) Interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+    <HelpKINode Title="about IViewBuilder&lt;TInput, TView&gt; interface" Url="html/9ec9eb72-c4b3-476e-490d-4383cef69f18.htm" />
+    <HelpKINode Title="methods" Url="html/99ea3d11-c59b-47c2-57ae-12cebe572a3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IViewBuilder&lt;TInput, TView&gt;.Build method" Url="html/3e23b41e-d0b7-6d05-32bd-9ae654e60e8a.htm" />
+  <HelpKINode Title="IViewBuilder&lt;TView&gt; interface">
+    <HelpKINode Title="IViewBuilder(TView) Interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+    <HelpKINode Title="about IViewBuilder&lt;TView&gt; interface" Url="html/e964d323-874d-d7c5-8dcd-d85f64f9b4ee.htm" />
+    <HelpKINode Title="methods" Url="html/fce7129e-1110-ed07-36c6-f2b8f47366d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IViewBuilder&lt;TView&gt;.Build method" Url="html/2ad6c72b-229a-9eb7-3c9c-c241b41dbdd2.htm" />
+  <HelpKINode Title="IViewFactory interface">
+    <HelpKINode Title="IViewFactory Interface" Url="html/3ef85d06-6f35-1722-9be5-8c50d9d940f5.htm" />
+    <HelpKINode Title="about IViewFactory interface" Url="html/3ef85d06-6f35-1722-9be5-8c50d9d940f5.htm" />
+    <HelpKINode Title="methods" Url="html/280f92c8-939c-8f9c-56f3-55d5a24b5bd6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IViewFactory.CreateView method" Url="html/b03cdb7c-db69-548f-c477-7255972d835f.htm" />
+  <HelpKINode Title="Mapper namespace" Url="html/1d09a2dd-6bb1-2ddf-db8d-e7b2a55216ce.htm" />
+  <HelpKINode Title="Mapper.AutoMapperConfig class" Url="html/307963ea-2e3c-cc5f-3f76-0c99845af722.htm" />
+  <HelpKINode Title="Mapper.EntityMappings namespace" Url="html/863e2299-4dbb-6f76-824c-f57d86af0194.htm" />
+  <HelpKINode Title="Mapper.EntityMappings.BlogMapping class" Url="html/5b538e6b-72bb-93d5-eaef-b468a24a1620.htm" />
+  <HelpKINode Title="Mapper.ViewModelMappings.Blogs namespace" Url="html/b6b2d08e-8058-7fd6-167e-0ae45e733878.htm" />
+  <HelpKINode Title="Mapper.ViewModelMappings.Blogs.BlogCreateViewBuilder class" Url="html/5d40ca4c-cc49-a7e2-f122-e256951e19b8.htm" />
+  <HelpKINode Title="Mapper.ViewModelMappings.Blogs.BlogDetailsViewBuilder class" Url="html/389db92e-9ff5-d4e9-7ca1-a25a7e875d1c.htm" />
+  <HelpKINode Title="Mapper.ViewModelMappings.Blogs.BlogEditViewBuilder class" Url="html/a81d281b-8239-2033-1ef0-85986e0bd086.htm" />
+  <HelpKINode Title="Mapper.ViewModelMappings.Blogs.BlogIndexViewBuilder class" Url="html/96ee91a5-fbf7-e742-49fd-a5350404eff9.htm" />
+  <HelpKINode Title="Model.Entities namespace" Url="html/295acfa1-8b03-ad94-ae0c-538d7f56cb0f.htm" />
+  <HelpKINode Title="Model.Entities.BaseEntity class" Url="html/35559254-db0b-b069-f932-0e37707bc2f4.htm" />
+  <HelpKINode Title="Model.Entities.Blog class" Url="html/e04f2a84-3393-e39b-3357-9ae16fda4710.htm" />
+  <HelpKINode Title="Model.Entities.Entity class" Url="html/ad38d256-eeed-5f6f-b1ec-70ac87e00cca.htm" />
+  <HelpKINode Title="Model.Entities.IEntity interface" Url="html/a6b09813-05a2-82f4-bc15-d6fb851a9257.htm" />
+  <HelpKINode Title="Model.ViewModels namespace" Url="html/e7b80b89-d746-7ae1-32d3-9c97d9f92c35.htm" />
+  <HelpKINode Title="Model.ViewModels.BlogCreateModel class" Url="html/b1861343-ca20-4497-eb42-96279187c79a.htm" />
+  <HelpKINode Title="Model.ViewModels.BlogDetailsModel class" Url="html/c43ade10-409a-728b-de36-2bf41ec443b7.htm" />
+  <HelpKINode Title="Model.ViewModels.BlogEditModel class" Url="html/aefe3bb8-e46c-4335-b33a-025687b2c616.htm" />
+  <HelpKINode Title="Model.ViewModels.BlogIndexItemModel class" Url="html/bb57f7dd-0558-6c7b-b426-0765db13809d.htm" />
+  <HelpKINode Title="Model.ViewModels.BlogIndexModel class" Url="html/951d3d73-57cd-f76b-115c-0aedfa917509.htm" />
+  <HelpKINode Title="MvcApplication class">
+    <HelpKINode Title="MvcApplication Class" Url="html/57e8c95b-017c-5df4-0956-85533c219740.htm" />
+    <HelpKINode Title="about MvcApplication class" Url="html/57e8c95b-017c-5df4-0956-85533c219740.htm" />
+    <HelpKINode Title="constructor" Url="html/af80540c-1c13-f14e-c3ee-24e10bccc8d5.htm" />
+    <HelpKINode Title="events" Url="html/d35b1a13-746d-c1c7-d801-a71039027754.htm" />
+    <HelpKINode Title="methods" Url="html/47397495-5e3a-3b28-9876-8fe1e24544e7.htm" />
+    <HelpKINode Title="properties" Url="html/22bfa6a6-497e-17e7-44d9-c911c2652115.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MvcApplication.Application_Start method" Url="html/1226f6e2-1117-405e-0af5-1ea3085042bb.htm" />
+  <HelpKINode Title="MvcApplication.MvcApplication constructor" Url="html/af80540c-1c13-f14e-c3ee-24e10bccc8d5.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Blog.Name Property " Url="html/d01482c9-091d-2d71-2502-7077f7a1749c.htm" />
+    <HelpKINode Title="BlogCreateModel.Name Property " Url="html/ad235a96-45e9-6a55-a24c-60cbdce06558.htm" />
+    <HelpKINode Title="BlogDetailsModel.Name Property " Url="html/8de16a03-62a3-8863-c3ee-3a66a8082597.htm" />
+    <HelpKINode Title="BlogEditModel.Name Property " Url="html/3aa779ed-68c8-c2af-7300-26ba7e96b404.htm" />
+    <HelpKINode Title="BlogIndexItemModel.Name Property " Url="html/c6c6831c-f251-a142-4945-84dc424b97a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotFound method" Url="html/8a45453a-433e-d3a0-2771-9837a51a8ee9.htm" />
+  <HelpKINode Title="OnException method" Url="html/a82c4dcc-5eca-4ff6-d75d-92f23992e006.htm" />
+  <HelpKINode Title="OnModelCreating method" Url="html/39aec3cf-d061-b287-6ecb-d212b73a5f04.htm" />
+  <HelpKINode Title="RegisterBundles method" Url="html/7280d62b-4e88-a008-f928-393db8b935a8.htm" />
+  <HelpKINode Title="RegisterGlobalFilters method" Url="html/7e6bacf8-6b35-b200-de94-0a79120023b5.htm" />
+  <HelpKINode Title="RegisterImplementationsClosingInterface method" Url="html/e4aa1831-7617-641e-2534-01eebd8f51a5.htm" />
+  <HelpKINode Title="RegisterMapping method" Url="html/afde6bfd-e2bc-dbf9-6639-0ecda4bc44d6.htm" />
+  <HelpKINode Title="RegisterRoutes method" Url="html/bdd05c79-ff7d-9ffc-dce6-ee813907b5f4.htm" />
+  <HelpKINode Title="Repository namespace" Url="html/2e933ce4-f1df-4f63-fed7-1c71d1181a3a.htm" />
+  <HelpKINode Title="Repository(Of TEntity) class">
+    <HelpKINode Title="Repository(TEntity) Class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+    <HelpKINode Title="about Repository(Of TEntity) class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+    <HelpKINode Title="constructor" Url="html/a021c182-089f-e4ec-52a8-1c94f095ac33.htm" />
+    <HelpKINode Title="methods" Url="html/f1e93681-d393-11ab-9a11-f735de7efab0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Repository(Of TEntity).Create method" Url="html/a7651cbb-9635-a46d-243a-0b9caf713657.htm" />
+  <HelpKINode Title="Repository(Of TEntity).Delete method" Url="html/cfcd428a-128e-0a61-3c5f-42d1d565ed44.htm" />
+  <HelpKINode Title="Repository(Of TEntity).Get method" Url="html/055d9c16-1b8a-24db-338d-8cbfaf5cb3f2.htm" />
+  <HelpKINode Title="Repository(Of TEntity).GetAll method" Url="html/0211cc45-a8d4-6eac-5d2c-6e8afbf9987a.htm" />
+  <HelpKINode Title="Repository(Of TEntity).GetById method" Url="html/7e207faa-818d-f752-cce5-640ab9665cf1.htm" />
+  <HelpKINode Title="Repository(Of TEntity).Repository constructor" Url="html/a021c182-089f-e4ec-52a8-1c94f095ac33.htm" />
+  <HelpKINode Title="Repository(Of TEntity).Update method" Url="html/8b18b75b-6bfb-dd66-b33e-a00a897124f8.htm" />
+  <HelpKINode Title="Repository.Conventions namespace" Url="html/e7225c47-4758-2c60-59c4-49abff518dcd.htm" />
+  <HelpKINode Title="Repository.Conventions.ForeignKeyNamingConvention class" Url="html/d0dbd7f9-d9bf-dcc2-c480-b4388ec4c4a0.htm" />
+  <HelpKINode Title="Repository.IContext interface" Url="html/e8ecf3df-9bc3-566d-409c-765ac3ef8f7b.htm" />
+  <HelpKINode Title="Repository.IRepository(Of TEntity) interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+  <HelpKINode Title="Repository.IRepository&lt;TEntity&gt; interface" Url="html/ca0e0b48-4c40-6860-7817-b0f08ade4732.htm" />
+  <HelpKINode Title="Repository.Repository(Of TEntity) class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+  <HelpKINode Title="Repository.Repository&lt;TEntity&gt; class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+  <HelpKINode Title="Repository.SkeletonMvcContext class" Url="html/a25439b3-4c7a-28fe-a00e-c2ef020c6bcc.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt; class">
+    <HelpKINode Title="Repository(TEntity) Class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+    <HelpKINode Title="about Repository&lt;TEntity&gt; class" Url="html/39b52c51-063f-4394-4495-66dc32f59db6.htm" />
+    <HelpKINode Title="constructor" Url="html/a021c182-089f-e4ec-52a8-1c94f095ac33.htm" />
+    <HelpKINode Title="methods" Url="html/f1e93681-d393-11ab-9a11-f735de7efab0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Repository&lt;TEntity&gt;.Create method" Url="html/a7651cbb-9635-a46d-243a-0b9caf713657.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.Delete method" Url="html/cfcd428a-128e-0a61-3c5f-42d1d565ed44.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.Get method" Url="html/055d9c16-1b8a-24db-338d-8cbfaf5cb3f2.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.GetAll method" Url="html/0211cc45-a8d4-6eac-5d2c-6e8afbf9987a.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.GetById method" Url="html/7e207faa-818d-f752-cce5-640ab9665cf1.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.Repository constructor" Url="html/a021c182-089f-e4ec-52a8-1c94f095ac33.htm" />
+  <HelpKINode Title="Repository&lt;TEntity&gt;.Update method" Url="html/8b18b75b-6bfb-dd66-b33e-a00a897124f8.htm" />
+  <HelpKINode Title="RouteConfig class">
+    <HelpKINode Title="RouteConfig Class" Url="html/c5dfced9-f3cc-a7f9-6562-22040c6ef8f2.htm" />
+    <HelpKINode Title="about RouteConfig class" Url="html/c5dfced9-f3cc-a7f9-6562-22040c6ef8f2.htm" />
+    <HelpKINode Title="constructor" Url="html/729f7eac-52db-7e05-4451-510a53d82c7e.htm" />
+    <HelpKINode Title="methods" Url="html/a4b5b6d5-64c5-86b9-2626-bd31484d1275.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RouteConfig.RegisterRoutes method" Url="html/bdd05c79-ff7d-9ffc-dce6-ee813907b5f4.htm" />
+  <HelpKINode Title="RouteConfig.RouteConfig constructor" Url="html/729f7eac-52db-7e05-4451-510a53d82c7e.htm" />
+  <HelpKINode Title="RowVersion property">
+    <HelpKINode Title="BlogCreateModel.RowVersion Property " Url="html/c826c502-85b3-261a-3fbe-f4bfcdb9f4de.htm" />
+    <HelpKINode Title="BlogEditModel.RowVersion Property " Url="html/0f3371bb-7bbf-6cbe-7d57-3be50b5f83cb.htm" />
+    <HelpKINode Title="Entity.RowVersion Property " Url="html/07a641cb-f327-4cf8-29d4-cb73c9a5f2d7.htm" />
+    <HelpKINode Title="IEntity.RowVersion Property " Url="html/07503cf1-7b6d-fa9d-2bcc-1e9165e74916.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaveChanges method" Url="html/a795bcf9-114b-daf7-3d6e-2e34eef9956a.htm" />
+  <HelpKINode Title="Set method" Url="html/d479f5b1-6f14-02fb-2f4e-c0a8f0a9640f.htm" />
+  <HelpKINode Title="Set(Of TEntity) method" Url="html/4040c300-520e-d30b-a127-5fe594253358.htm" />
+  <HelpKINode Title="Set&lt;TEntity&gt; method" Url="html/4040c300-520e-d30b-a127-5fe594253358.htm" />
+  <HelpKINode Title="SkeletonMvcContext class">
+    <HelpKINode Title="SkeletonMvcContext Class" Url="html/a25439b3-4c7a-28fe-a00e-c2ef020c6bcc.htm" />
+    <HelpKINode Title="about SkeletonMvcContext class" Url="html/a25439b3-4c7a-28fe-a00e-c2ef020c6bcc.htm" />
+    <HelpKINode Title="constructor" Url="html/a544e09c-6909-a204-26f4-be34a3d11e33.htm" />
+    <HelpKINode Title="methods" Url="html/4406b2ca-fde4-0a6e-a9ce-599640ba91a4.htm" />
+    <HelpKINode Title="properties" Url="html/41ec81e9-c893-cbbf-0cff-ec656fea22cb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SkeletonMvcContext.OnModelCreating method" Url="html/39aec3cf-d061-b287-6ecb-d212b73a5f04.htm" />
+  <HelpKINode Title="SkeletonMvcContext.Set method" Url="html/d479f5b1-6f14-02fb-2f4e-c0a8f0a9640f.htm" />
+  <HelpKINode Title="SkeletonMvcContext.SkeletonMvcContext constructor" Url="html/a544e09c-6909-a204-26f4-be34a3d11e33.htm" />
+  <HelpKINode Title="TestAllControllerActions method" Url="html/715680b5-ff34-a49d-e09a-c2792535291d.htm" />
+  <HelpKINode Title="TypeExtension class">
+    <HelpKINode Title="TypeExtension Class" Url="html/f62528cc-255e-3ca1-9afb-d0c32c3ef8aa.htm" />
+    <HelpKINode Title="about TypeExtension class" Url="html/f62528cc-255e-3ca1-9afb-d0c32c3ef8aa.htm" />
+    <HelpKINode Title="methods" Url="html/a5b15874-b682-a5d5-8daf-448c6a98486a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeExtension.DynamicMock method" Url="html/eb53b423-0436-67ea-017e-ca51187d15aa.htm" />
+  <HelpKINode Title="TypeExtension.FormattedName method" Url="html/703d3fac-29a8-52db-4ed5-3da156e614f2.htm" />
+  <HelpKINode Title="TypeExtension.GetNullableType method" Url="html/88e2f0fd-1b33-c208-69eb-b3e0613ad717.htm" />
+  <HelpKINode Title="Unauthorized method" Url="html/3e497ad9-2450-429e-c57b-4def2c1bad08.htm" />
+  <HelpKINode Title="UnitTest namespace" Url="html/9fbbda93-1b1e-af62-1487-b269434a6276.htm" />
+  <HelpKINode Title="UnitTest.ControllerTest class" Url="html/1bea6459-09ac-314f-0b55-cdaf2436b2d0.htm" />
+  <HelpKINode Title="UnityExtension class">
+    <HelpKINode Title="UnityExtension Class" Url="html/11cd67d6-e4b8-244b-91ac-f2a791d72323.htm" />
+    <HelpKINode Title="about UnityExtension class" Url="html/11cd67d6-e4b8-244b-91ac-f2a791d72323.htm" />
+    <HelpKINode Title="methods" Url="html/71809652-8cb9-316d-5f80-87ba038502a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnityExtension.RegisterImplementationsClosingInterface method" Url="html/e4aa1831-7617-641e-2534-01eebd8f51a5.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="IRepository(TEntity).Update Method " Url="html/b8f49d07-3f4e-fc40-6bd7-419f7e2285ff.htm" />
+    <HelpKINode Title="Repository(TEntity).Update Method " Url="html/8b18b75b-6bfb-dd66-b33e-a00a897124f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UseEntityFieldsOnly enumeration member" Url="html/959819fb-dc50-32e3-81d5-70b51bbcce0a.htm" />
+  <HelpKINode Title="UseViewModelNamesToCheckEntity enumeration member" Url="html/959819fb-dc50-32e3-81d5-70b51bbcce0a.htm" />
+  <HelpKINode Title="Web namespace" Url="html/3f733fa4-5103-9691-9050-529db5256a81.htm" />
+  <HelpKINode Title="Web.BundleConfig class" Url="html/0cbcfff8-d701-7a3f-2f8b-f4dea0ce1d46.htm" />
+  <HelpKINode Title="Web.Controllers namespace" Url="html/dc569677-56f7-e80f-3260-556564b05de8.htm" />
+  <HelpKINode Title="Web.Controllers.BlogController class" Url="html/af6a8e24-9d1b-fb61-672e-9370117e8682.htm" />
+  <HelpKINode Title="Web.Controllers.ErrorController class" Url="html/4e9ce878-ca11-50f8-c889-68f201507ce1.htm" />
+  <HelpKINode Title="Web.Controllers.HomeController class" Url="html/eb2abc71-fa35-80eb-bfa9-9d289e8d9ead.htm" />
+  <HelpKINode Title="Web.FilterConfig class" Url="html/8c5b1e2b-0820-4408-1ad2-0dfa3746b283.htm" />
+  <HelpKINode Title="Web.Filters namespace" Url="html/dc315fc0-5394-2ea7-7a7a-a1fe5a0ab273.htm" />
+  <HelpKINode Title="Web.Filters.HandleConcurrencyExceptionFilter class" Url="html/7c61d3d5-12fe-a560-d4ec-c993c32edf2e.htm" />
+  <HelpKINode Title="Web.Filters.HandleConcurrencyExceptionFilter.PropertyMatchingMode enumeration" Url="html/959819fb-dc50-32e3-81d5-70b51bbcce0a.htm" />
+  <HelpKINode Title="Web.MvcApplication class" Url="html/57e8c95b-017c-5df4-0956-85533c219740.htm" />
+  <HelpKINode Title="Web.RouteConfig class" Url="html/c5dfced9-f3cc-a7f9-6562-22040c6ef8f2.htm" />
+</HelpKI>
