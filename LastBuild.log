@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\projects\skeletonmvc\Documentation\Documentation.shfbproj" started="6/12/2016 12:40:50 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\projects\skeletonmvc\Documentation\Documentation.shfbproj" started="6/12/2016 1:08:03 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -88,7 +88,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 6/12/2016 12:40:53 PM.
+Build started 6/12/2016 1:08:06 PM.
 The target &quot;_ConvertPdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectPdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectMdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)&quot; does not exist in the project, and will be ignored.
@@ -111,13 +111,13 @@ Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:04.92
-    Last step completed in 00:00:05.0158
+Time Elapsed 00:00:05.06
+    Last step completed in 00:00:05.1873
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 6/12/2016 12:40:58 PM.
+Build started 6/12/2016 1:08:11 PM.
 Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.10.10.0)
@@ -141,12 +141,12 @@ Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\T
 
 Build succeeded.
 
-Time Elapsed 00:00:00.90
-    Last step completed in 00:00:00.9844
+Time Elapsed 00:00:00.99
+    Last step completed in 00:00:01.0781
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0469
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -173,12 +173,12 @@ Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:02.6720
+    Last step completed in 00:00:02.8749
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -187,7 +187,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 6/12/2016 12:41:02 PM.
+Build started 6/12/2016 1:08:15 PM.
 Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.10.10.0)
@@ -198,24 +198,24 @@ Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:00.15
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2033
+    Last step completed in 00:00:00.2188
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2029
+    Last step completed in 00:00:00.2812
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\projects\skeletonmvc\Documentation\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 6/12/2016 12:41:02 PM.
+Build started 6/12/2016 1:08:15 PM.
 Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.10.10.0)
@@ -452,8 +452,8 @@ Done Building Project &quot;C:\projects\skeletonmvc\Documentation\Help\Working\B
 
 Build succeeded.
 
-Time Elapsed 00:01:38.30
-    Last step completed in 00:01:38.6763
+Time Elapsed 00:01:42.51
+    Last step completed in 00:01:48.3084
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -473,7 +473,7 @@ Processed 219 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\projects\skeletonmvc\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\projects\skeletonmvc\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.3281
+    Last step completed in 00:00:00.3597
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -552,7 +552,7 @@ c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\icons\TocOpen.gif
 c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
 c:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\projects\skeletonmvc\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.3282
+    Last step completed in 00:00:00.4372
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -563,21 +563,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.6880
+</plugIn>    Last step completed in 00:00:00.8906
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 417 files for the website content
-    Last step completed in 00:00:00.2026
+    Last step completed in 00:00:00.2187
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1250
+    Last step completed in 00:00:00.1406
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 6/12/2016 12:42:42 PM.  Total time: 00:01:52.0050
+Build completed successfully at 6/12/2016 1:10:06 PM.  Total time: 00:02:02.7140
 
 </buildStep>
 </shfbBuild>
