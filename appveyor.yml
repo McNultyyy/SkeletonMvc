@@ -26,6 +26,6 @@ deploy_script:
 - git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
 - git clone --branch=gh-pages https://www.github.com/mcnultyyy/SkeletonMvc gh-pages
 - git add .
-- Set-Variable message = ([string]::Format("CI autocommit from commit {0}", $env:APPVEYOR_REPO_COMMIT))
+- Set-Variable message ([string]::Format("CI autocommit from commit {0}", $env:APPVEYOR_REPO_COMMIT))
 - git commit -m $message
 - git push
