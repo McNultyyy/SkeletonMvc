@@ -20,11 +20,11 @@ build:
   parallel: true
   verbosity: minimal
 deploy_script:
-- cd Documentation/Help
-- git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
-- git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
-- git clone --branch=gh-pages https://www.github.com/mcnultyyy/SkeletonMvc gh-pages
-- git add .
-- $message = "CI autocommit from commit "+$env:APPVEYOR_REPO_COMMIT;
-- git commit -m $message
-- git push
+- ps1: cd Documentation/Help
+- ps1: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
+- ps1: git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
+- ps1: git clone --branch=gh-pages https://www.github.com/mcnultyyy/SkeletonMvc gh-pages
+- ps1: git add .
+- ps1: $message = "CI autocommit from commit "+$env:APPVEYOR_REPO_COMMIT;
+- ps1: git commit -m $message
+- ps1: git push
