@@ -25,6 +25,7 @@ build:
 deploy_script:
 - cd Documentation
 - git config --global credential.helper store
+- git config --global core.autocrlf true
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:GH_TOKEN):x-oauth-basic@github.com`n"
 - ps: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 - ps: git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
