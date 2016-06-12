@@ -24,6 +24,7 @@ deploy_script:
 - cd Documentation
 - git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 - git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
+- git config --global push.default simple
 - git clone --branch=gh-pages https://www.github.com/mcnultyyy/SkeletonMvc gh-pages
 - ps: Copy-Item -Path .\Help\* -Destination .\gh-pages\ -Recurse -Force
 - cd gh-pages
