@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Model.Entities
@@ -42,5 +45,41 @@ namespace Model.Entities
         /// The row version.
         /// </value>
         byte[] RowVersion { get; set; }
+    }
+
+    public interface IPerson
+    {
+        string Name { get; set; }
+    }
+    public class Person : Entity, IPerson, IAuditable<PersonAudit>
+    {
+        public string Name { get; set; }
+
+        public ICollection<PersonAudit> AuditEntities { get; set; }
+    }
+
+
+
+    public class PersonAudit : Person, IAuditEntity
+    {
+        public int EntityId { get; set; }
+        public Person Entity { get; set; }
+
+        public string ChangedBy { get; set; }
+        public DateTime ChangeDate { get; set; }
+        public string Action { get; set; }
+    }
+
+
+    public interface IAuditable<T> where T : Entity
+    {
+        ICollection<T> AuditEntities { get; set; }
+    }
+
+    public interface IAuditEntity
+    {
+        string ChangedBy { get; set; }
+        DateTime ChangeDate { get; set; }
+        string Action { get; set; }
     }
 }
