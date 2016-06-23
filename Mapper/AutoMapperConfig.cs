@@ -1,5 +1,5 @@
-﻿using Repository.Model.Entities;
-using Repository.Model.ViewModels;
+﻿using Repository.Models.Entities;
+using Repository.Models.ViewModels;
 
 namespace Mapper
 {

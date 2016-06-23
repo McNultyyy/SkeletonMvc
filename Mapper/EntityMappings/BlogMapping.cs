@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using Repository.Model.Entities;
+using Repository.Models.Entities;
 
 namespace Mapper.EntityMappings
 {

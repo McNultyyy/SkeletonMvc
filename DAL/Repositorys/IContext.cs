@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using Repository.Model.Entities;
+using Repository.Models.Entities;
 
-namespace Repository.Repository
+namespace Repository.Repositorys
 {
     public interface IContext
     {

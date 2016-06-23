@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Repository.Model.ViewModels
+namespace Repository.Models.ViewModels
 {
     public class BlogIndexModel
     {

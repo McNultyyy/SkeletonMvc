@@ -3,18 +3,19 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
-using Repository.Model.Entities;
-using Repository.Repository.Conventions;
+using Repository.Models.Entities;
+using Repository.Repositorys.Conventions;
 
-namespace Repository.Repository
+namespace Repository.Repositorys
 {
-
     public class SkeletonMvcContext : DbContext, IContext
     {
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Blog> BlogAudits { get; set; }
 
         public SkeletonMvcContext()
         {
-            // Database.SetInitializer<SkeletonMvcContext>(null);
+            Database.SetInitializer<SkeletonMvcContext>(null);
         }
 
         public IDbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity, IEntity

@@ -3,7 +3,7 @@ using DependencyInjection.ViewFactory;
 using Extension;
 using Microsoft.Practices.Unity;
 using Repository;
-using Repository.Repository;
+using Repository.Repositorys;
 
 namespace DependencyInjection
 {
