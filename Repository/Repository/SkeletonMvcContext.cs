@@ -1,13 +1,12 @@
-﻿using Model.Entities;
-using Repository.Conventions;
-using System;
+﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
-using System.Reflection;
+using Repository.Model.Entities;
+using Repository.Repository.Conventions;
 
-namespace Repository
+namespace Repository.Repository
 {
 
     public class SkeletonMvcContext : DbContext, IContext

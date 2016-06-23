@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Model.Entities
+﻿namespace Repository.Model.Entities
 {
     public class Blog : Entity
     {

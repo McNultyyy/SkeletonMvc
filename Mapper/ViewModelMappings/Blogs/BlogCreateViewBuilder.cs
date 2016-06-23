@@ -1,5 +1,5 @@
 ﻿using DependencyInjection.ViewFactory;
-using Model.ViewModels;
+using Repository.Model.ViewModels;
 
 namespace Mapper.ViewModelMappings.Blogs
 {

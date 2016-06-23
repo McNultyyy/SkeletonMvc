@@ -1,12 +1,9 @@
-﻿using Model.Entities;
+﻿using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using Repository.Model.Entities;
 
-namespace Repository
+namespace Repository.Repository
 {
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-
-    using Model;
-
     public interface IContext
     {
         IDbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity, IEntity;

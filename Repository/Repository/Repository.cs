@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using Model;
-using Model.Entities;
+using Repository.Model.Entities;
 
-namespace Repository
+namespace Repository.Repository
 {
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : Entity

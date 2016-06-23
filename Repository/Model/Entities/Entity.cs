@@ -1,9 +1,8 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Model.Entities
+namespace Repository.Model.Entities
 {
     /// <summary>
     /// The base implementation of an entity.

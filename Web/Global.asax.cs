@@ -8,7 +8,6 @@ using System.Web.Routing;
 using DependencyInjection;
 using Mapper;
 using Microsoft.Practices.Unity.Mvc;
-using Model;
 
 namespace Web
 {

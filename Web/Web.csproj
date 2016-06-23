@@ -210,10 +210,6 @@
       <Project>{AE6448E8-0526-45C5-9DC5-44221994BAEA}</Project>
       <Name>Mapper</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{4CC61433-1DE1-423B-9768-0ADF5CA5C627}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Repository\Repository.csproj">
       <Project>{26564DCE-1BD5-470A-81AA-779BF829EDFA}</Project>
       <Name>Repository</Name>

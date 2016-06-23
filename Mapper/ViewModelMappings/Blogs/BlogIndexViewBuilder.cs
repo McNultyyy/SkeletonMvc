@@ -1,8 +1,9 @@
 ﻿using System.Linq;
 using DependencyInjection.ViewFactory;
-using Model.Entities;
-using Model.ViewModels;
 using Repository;
+using Repository.Model.Entities;
+using Repository.Model.ViewModels;
+using Repository.Repository;
 
 namespace Mapper.ViewModelMappings.Blogs
 {
