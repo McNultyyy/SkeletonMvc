@@ -8,7 +8,7 @@ A skeleton project for general MVC projects.
 ---
 
 ###Code First
-Currently uses EF codefirst migrations. 
+Currently uses EF codefirst migrations.
 
 ###Dependency Injection
 Uses Unity for dependency injection, should be relatively easy to change to Ninject, StructureMap etc...
@@ -16,17 +16,22 @@ Uses Unity for dependency injection, should be relatively easy to change to Ninj
 ###Documentation
 Contains the SandCastle documentation project.
 
-###Model
-This is where the DAO entities reside. All entities contain a mapping class.
-
 ###Mapper
 Contains Entity, ViewModel and AutoMapping mapping configs.
 
-###Repository
-A generic repository for the DAO entities.
+###DAL (Data Access Layer)
+The DAOs, ViewModels and Repositories.
 
 ###Web
 A standard MVC web project.
 
 ###Extension
 A collection of extension methods used through the application.
+  
+  
+  
+  
+####QuickStart
+```
+Enable-Migrations -ContextProjectName DAL
+```

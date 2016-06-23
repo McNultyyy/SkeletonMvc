@@ -63,7 +63,7 @@
     <Compile Include="Models\Entities\Entity.cs" />
     <Compile Include="Models\Interfaces\IAuditable.cs" />
     <Compile Include="Models\Interfaces\IAudits.cs" />
-    <Compile Include="Models\Entities\Person.cs" />
+    <Compile Include="Models\Interfaces\IHasMany.cs" />
     <Compile Include="Models\ViewModels\BlogCreateModel.cs" />
     <Compile Include="Models\ViewModels\BlogDetailsModel.cs" />
     <Compile Include="Models\ViewModels\BlogEditModel.cs" />
