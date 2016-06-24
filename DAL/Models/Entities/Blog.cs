@@ -25,6 +25,7 @@ namespace Repository.Models.Entities
 
         public int EntityId { get; set; }
         public Blog Entity { get; set; }
+
         public string ChangedBy { get; set; }
         public DateTime ChangeDate { get; set; }
         public string Action { get; set; }

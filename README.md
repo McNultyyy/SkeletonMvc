@@ -29,7 +29,7 @@ A standard MVC web project.
 A collection of extension methods used through the application.
   
   
-  
+---  
   
 ####QuickStart
 ```

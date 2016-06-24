@@ -11,7 +11,7 @@ namespace Repository.Repositorys
     public class SkeletonMvcContext : DbContext, IContext
     {
         public DbSet<Blog> Blogs { get; set; }
-        public DbSet<Blog> BlogAudits { get; set; }
+        public DbSet<BlogAudit> BlogAudits { get; set; }
 
         public SkeletonMvcContext()
         {
