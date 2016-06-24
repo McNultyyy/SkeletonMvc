@@ -1,4 +1,4 @@
-﻿namespace Repository.Models.ViewModels
+﻿namespace Web.ViewModels
 {
     public class BlogCreateModel
     {

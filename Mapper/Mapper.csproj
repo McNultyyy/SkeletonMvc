@@ -55,13 +55,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoMapperConfig.cs" />
-    <Compile Include="EntityMappings\BlogMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModelMappings\Blogs\BlogIndexViewBuilder.cs" />
-    <Compile Include="ViewModelMappings\Blogs\BlogEditViewBuilder.cs" />
-    <Compile Include="ViewModelMappings\Blogs\BlogCreateViewBuilder.cs" />
-    <Compile Include="ViewModelMappings\Blogs\BlogDetailsViewBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

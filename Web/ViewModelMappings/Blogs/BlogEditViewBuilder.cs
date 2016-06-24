@@ -1,7 +1,7 @@
 ﻿using DependencyInjection.ViewFactory;
-using Repository.Models.ViewModels;
+using Web.ViewModels;
 
-namespace Mapper.ViewModelMappings.Blogs
+namespace Web.ViewModelMappings.Blogs
 {
     public class BlogEditViewBuilder : IViewBuilder<BlogEditModel>
     {

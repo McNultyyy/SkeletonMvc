@@ -1,6 +1,7 @@
 ﻿using Repository.Models.Entities;
+using Web.ViewModels;
 
-namespace Mapper
+namespace Web
 {
     public static class AutoMapperConfig
     {

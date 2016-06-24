@@ -1,11 +1,10 @@
 ﻿using System.Linq;
 using DependencyInjection.ViewFactory;
-using Repository;
 using Repository.Models.Entities;
-using Repository.Models.ViewModels;
 using Repository.Repositorys;
+using Web.ViewModels;
 
-namespace Mapper.ViewModelMappings.Blogs
+namespace Web.ViewModelMappings.Blogs
 {
     public class BlogIndexViewBuilder : IViewBuilder<BlogIndexModel>
     {

@@ -152,6 +152,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="AutoMapperConfig.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -160,6 +161,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogCreateViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogDetailsViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogEditViewBuilder.cs" />
+    <Compile Include="ViewModelMappings\Blogs\BlogIndexViewBuilder.cs" />
+    <Compile Include="ViewModels\BlogCreateModel.cs" />
+    <Compile Include="ViewModels\BlogDetailsModel.cs" />
+    <Compile Include="ViewModels\BlogEditModel.cs" />
+    <Compile Include="ViewModels\BlogIndexModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
