@@ -215,10 +215,6 @@
       <Project>{B2B65B37-C112-4E75-830E-174EA8C7065B}</Project>
       <Name>DependencyInjection</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mapper\Mapper.csproj">
-      <Project>{AE6448E8-0526-45C5-9DC5-44221994BAEA}</Project>
-      <Name>Mapper</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{26564DCE-1BD5-470A-81AA-779BF829EDFA}</Project>
       <Name>DAL</Name>

@@ -109,10 +109,6 @@
       <Project>{93279203-9a01-459d-93f6-f528518f1625}</Project>
       <Name>Extension</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mapper\Mapper.csproj">
-      <Project>{AE6448E8-0526-45C5-9DC5-44221994BAEA}</Project>
-      <Name>Mapper</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Web\Web.csproj">
       <Project>{47543350-2833-4CE0-9574-471B8B349601}</Project>
       <Name>Web</Name>
