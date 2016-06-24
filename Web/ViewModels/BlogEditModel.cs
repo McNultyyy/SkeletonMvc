@@ -1,4 +1,4 @@
-﻿namespace Web.ViewModels
+﻿namespace Repository.Models.ViewModels
 {
     public class BlogEditModel
     {

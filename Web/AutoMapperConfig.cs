@@ -1,7 +1,7 @@
 ﻿using Repository.Models.Entities;
-using Web.ViewModels;
+using Repository.Models.ViewModels;
 
-namespace Web
+namespace Mapper
 {
     public static class AutoMapperConfig
     {

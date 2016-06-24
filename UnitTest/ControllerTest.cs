@@ -4,17 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Extension;
+using Mapper;
 using Moq;
 using NUnit.Framework;
 using Web;
-using Web.Controllers;
 
 namespace UnitTest
 {
     [TestFixture]
     public class ControllerTest
     {
-        private static Mock<HttpContextBase> MockedHttpContext(string url)
+        private static Mock<HttpContextBase> MockedHttpContext()
         {
             var mockHttpContext = new Mock<HttpContextBase>();
             var mockResponse = new Mock<HttpResponseBase>();
@@ -29,7 +29,7 @@ namespace UnitTest
         {
             AutoMapperConfig.RegisterMapping();
 
-            var mockHttpContext = MockedHttpContext("").Object;
+            var mockHttpContext = MockedHttpContext().Object;
 
             var allTypes = typeof(MvcApplication).Assembly.GetExportedTypes();
 

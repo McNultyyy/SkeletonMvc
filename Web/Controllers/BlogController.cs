@@ -4,8 +4,8 @@ using System.Web.Mvc;
 using DependencyInjection.ViewFactory;
 using Repository;
 using Repository.Models.Entities;
+using Repository.Models.ViewModels;
 using Repository.Repositorys;
-using Web.ViewModels;
 
 namespace Web.Controllers
 {

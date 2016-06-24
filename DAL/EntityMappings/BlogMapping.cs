@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 using Repository.Models.Entities;
 
-namespace Repository.EntityMappings
+namespace Mapper.EntityMappings
 {
     public class BlogMapping : EntityTypeConfiguration<Blog>
     {
