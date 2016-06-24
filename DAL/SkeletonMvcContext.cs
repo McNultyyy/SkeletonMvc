@@ -6,9 +6,10 @@ using System.Linq;
 using System.Threading;
 using Repository.Models.Entities;
 using Repository.Models.Interfaces;
+using Repository.Repositorys;
 using Repository.Repositorys.Conventions;
 
-namespace Repository.Repositorys
+namespace Repository
 {
     public class SkeletonMvcContext : DbContext, IContext
     {

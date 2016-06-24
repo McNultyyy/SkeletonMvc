@@ -3,6 +3,7 @@ using System.CodeDom;
 using System.Linq;
 using Microsoft.CSharp;
 using Moq;
+using Microsoft.Practices.Unity.Utility;
 
 namespace Extension
 {
@@ -34,6 +35,7 @@ namespace Extension
             return typeName;
         }
 
+
         public static object DynamicMock(this Type type)
         {
             var mock = typeof(Mock<>)
@@ -44,6 +46,29 @@ namespace Extension
                 .GetProperties()
                 .Single(x => x.Name == "Object" && x.PropertyType == type)
                 .GetValue(mock, new object[] { });
+        }
+
+        public static object DefaultValue(this Type type)
+        {
+            if (type.IsValueType)
+                return Activator.CreateInstance(type);
+            return null;
+        }
+
+        public static TSource DefaultValue<TSource>(this Type type) where TSource : class
+        {
+            return DefaultValue(type) as TSource;
+        }
+
+        public static object NewObject(this Type type)
+        {
+            if (type == typeof(string)) return string.Empty;
+
+            var emptyConstructor = type
+                .GetConstructor(new Type[] { });
+            var result = emptyConstructor?.Invoke(new object[] { });
+
+            return result;
         }
     }
 }

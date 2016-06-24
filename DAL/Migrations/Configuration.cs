@@ -5,14 +5,14 @@ namespace Repository.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Repository.Repositorys.SkeletonMvcContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SkeletonMvcContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Repository.Repositorys.SkeletonMvcContext context)
+        protected override void Seed(SkeletonMvcContext context)
         {
             //  This method will be called after migrating to the latest version.
 
