@@ -3,7 +3,12 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Security.Principal;
+using System.Threading;
 using Repository.Models.Entities;
+using Repository.Models.Interfaces;
 using Repository.Repositorys.Conventions;
 
 namespace Repository.Repositorys
@@ -45,6 +50,31 @@ namespace Repository.Repositorys
             }
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        public override int SaveChanges()
+        {
+            var modifiedEntries = ChangeTracker.Entries().Where(x =>
+                x.GetType().GetInterfaces().Contains(typeof(IAudits<>)) &&
+                (x.State == EntityState.Added || x.State == EntityState.Modified));
+
+            foreach (var modifiedEntry in modifiedEntries)
+            {
+                var entity = modifiedEntry.Entity as IAudits<Entity>;
+
+                if (entity != null)
+                {
+                    var action = modifiedEntry.State.ToString();
+                    var username = Thread.CurrentPrincipal.Identity.Name ?? "Unknown";
+                    var date = DateTime.Now;
+
+                    entity.Action = action;
+                    entity.ChangedBy = username;
+                    entity.ChangeDate = date;
+                }
+
+            }
+            return base.SaveChanges();
         }
     }
 }
