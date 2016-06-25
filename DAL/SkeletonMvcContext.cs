@@ -13,9 +13,6 @@ namespace DAL
 {
     public class SkeletonMvcContext : DbContext, IContext
     {
-        public DbSet<Blog> Blogs { get; set; }
-        public DbSet<BlogAudit> BlogAudits { get; set; }
-
         public SkeletonMvcContext()
         {
             Database.SetInitializer<SkeletonMvcContext>(null);

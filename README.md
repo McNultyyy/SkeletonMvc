@@ -31,5 +31,5 @@ A collection of extension methods used through the application.
 
 ####QuickStart
 ```
-Enable-Migrations -ContextProjectName DAL
+Enable-Migrations -ContextProjectName DAL -ProjectName DAL -Force
 ```

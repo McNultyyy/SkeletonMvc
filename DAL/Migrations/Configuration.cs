@@ -1,15 +1,18 @@
-using System.Data.Entity.Migrations;
-
 namespace DAL.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<SkeletonMvcContext>
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<DAL.SkeletonMvcContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(SkeletonMvcContext context)
+        protected override void Seed(DAL.SkeletonMvcContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -51,10 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityMappings\BlogMapping.cs" />
-    <Compile Include="Migrations\201606242306027_Initial.cs" />
-    <Compile Include="Migrations\201606242306027_Initial.Designer.cs">
-      <DependentUpon>201606242306027_Initial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Blog.cs" />
     <Compile Include="Models\Entities\Entity.cs" />
@@ -73,11 +69,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201606242306027_Initial.resx">
-      <DependentUpon>201606242306027_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
