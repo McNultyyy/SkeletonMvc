@@ -1,4 +1,4 @@
-﻿using DependencyInjection.ViewFactory;
+﻿using Web.ViewFactory;
 using Web.ViewModels;
 
 namespace Web.ViewModelMappings.Blogs

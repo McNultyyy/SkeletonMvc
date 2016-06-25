@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using DAL.Models.Entities;
 using DAL.Repository;
-using DependencyInjection.ViewFactory;
+using Web.ViewFactory;
 using Web.ViewModels;
 
 namespace Web.ViewModelMappings.Blogs

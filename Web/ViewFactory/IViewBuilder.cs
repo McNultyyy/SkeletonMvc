@@ -1,4 +1,4 @@
-namespace DependencyInjection.ViewFactory
+namespace Web.ViewFactory
 {
     public interface IViewBuilder<in TInput, out TView>
     {

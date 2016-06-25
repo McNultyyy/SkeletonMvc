@@ -3,7 +3,7 @@ using System.Net;
 using System.Web.Mvc;
 using DAL.Models.Entities;
 using DAL.Repository;
-using DependencyInjection.ViewFactory;
+using Web.ViewFactory;
 using Web.ViewModels;
 
 namespace Web.Controllers

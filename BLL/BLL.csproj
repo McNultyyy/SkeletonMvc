@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefaultServiceProvider\IDefaultValueProvider.cs" />
+    <Compile Include="EntityServices\BlogService.cs" />
     <Compile Include="EntityServices\GenericEntityService.cs" />
     <Compile Include="EntityServices\IEntityService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,6 +59,10 @@
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{26564DCE-1BD5-470A-81AA-779BF829EDFA}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Extension\Extension.csproj">
+      <Project>{93279203-9A01-459D-93F6-F528518F1625}</Project>
+      <Name>Extension</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
