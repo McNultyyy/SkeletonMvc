@@ -1,10 +1,7 @@
-namespace Repository.Migrations
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+using System.Data.Entity.Migrations;
 
+namespace DAL.Migrations
+{
     internal sealed class Configuration : DbMigrationsConfiguration<SkeletonMvcContext>
     {
         public Configuration()

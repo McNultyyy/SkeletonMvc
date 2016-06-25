@@ -1,4 +1,4 @@
-﻿using Repository.Models.Entities;
+﻿using DAL.Models.Entities;
 using Repository.Models.ViewModels;
 
 namespace Mapper

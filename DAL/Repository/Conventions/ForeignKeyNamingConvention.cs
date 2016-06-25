@@ -2,7 +2,7 @@
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace Repository.Repositorys.Conventions
+namespace DAL.Repository.Conventions
 {
     /// <summary>
     /// Provides a convention for fixing the independent association (IA) foreign key column names.

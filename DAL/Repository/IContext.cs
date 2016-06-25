@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using Repository.Models.Entities;
+using DAL.Models.Entities;
 
-namespace Repository.Repositorys
+namespace DAL.Repository
 {
     public interface IContext
     {

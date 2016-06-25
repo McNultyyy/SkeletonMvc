@@ -1,9 +1,9 @@
 ﻿using System;
+using DAL;
+using DAL.Repository;
 using DependencyInjection.ViewFactory;
 using Extension;
 using Microsoft.Practices.Unity;
-using Repository;
-using Repository.Repositorys;
 
 namespace DependencyInjection
 {
@@ -30,7 +30,7 @@ namespace DependencyInjection
         private static void RegisterServices(IUnityContainer container)
         {
             container.RegisterType<IContext, SkeletonMvcContext>();
-            container.RegisterType(typeof(IRepository<>), typeof(Repository<>));
+            container.RegisterType(typeof(IRepository<>), typeof(GenericRepository<>));
 
             container.RegisterType<IViewFactory, DefaultViewFactory>();
             container.RegisterImplementationsClosingInterface(typeof(IViewBuilder<>));

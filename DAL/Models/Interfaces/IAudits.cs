@@ -1,7 +1,7 @@
 ﻿using System;
-using Repository.Models.Entities;
+using DAL.Models.Entities;
 
-namespace Repository.Models.Interfaces
+namespace DAL.Models.Interfaces
 {
     public interface IAudits<TEntity> where TEntity : Entity
     {

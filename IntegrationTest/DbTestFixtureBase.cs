@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Transactions;
+using DAL.Models.Entities;
+using DAL.Repository;
 using DependencyInjection;
 using Extension;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
-using Repository.Models.Entities;
-using Repository.Repositorys;
 
 namespace IntegrationTest
 {

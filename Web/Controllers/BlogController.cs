@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using System.Net;
 using System.Web.Mvc;
+using DAL.Models.Entities;
+using DAL.Repository;
 using DependencyInjection.ViewFactory;
 using Repository;
-using Repository.Models.Entities;
 using Repository.Models.ViewModels;
-using Repository.Repositorys;
 
 namespace Web.Controllers
 {

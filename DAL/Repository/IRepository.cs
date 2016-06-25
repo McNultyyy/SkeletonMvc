@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Repository.Models.Entities;
+using DAL.Models.Entities;
 
-namespace Repository.Repositorys
+namespace DAL.Repository
 {
     public interface IRepository<TEntity> where TEntity : Entity
     {

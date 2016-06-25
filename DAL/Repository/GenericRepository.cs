@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using Repository.Models.Entities;
+using DAL.Models.Entities;
 
-namespace Repository.Repositorys
+namespace DAL.Repository
 {
-    public class Repository<TEntity> : IRepository<TEntity>
+    public class GenericRepository<TEntity> : IRepository<TEntity>
         where TEntity : Entity
     {
 
         private readonly IContext _dbContext;
 
-        public Repository(IContext dbContext)
+        public GenericRepository(IContext dbContext)
         {
             _dbContext = dbContext;
         }

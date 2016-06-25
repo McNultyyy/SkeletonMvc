@@ -1,4 +1,4 @@
-﻿using Repository.Models.Entities;
+﻿using DAL.Models.Entities;
 
 namespace IntegrationTest.RepositoryTests
 {

@@ -4,12 +4,12 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading;
-using Repository.Models.Entities;
-using Repository.Models.Interfaces;
-using Repository.Repositorys;
-using Repository.Repositorys.Conventions;
+using DAL.Models.Entities;
+using DAL.Models.Interfaces;
+using DAL.Repository;
+using DAL.Repository.Conventions;
 
-namespace Repository
+namespace DAL
 {
     public class SkeletonMvcContext : DbContext, IContext
     {

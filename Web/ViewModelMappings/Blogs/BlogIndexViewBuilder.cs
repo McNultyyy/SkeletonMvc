@@ -1,9 +1,9 @@
 ﻿using System.Linq;
+using DAL.Models.Entities;
+using DAL.Repository;
 using DependencyInjection.ViewFactory;
 using Repository;
-using Repository.Models.Entities;
 using Repository.Models.ViewModels;
-using Repository.Repositorys;
 
 namespace Mapper.ViewModelMappings.Blogs
 {

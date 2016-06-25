@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Repository.Models.Interfaces;
 
-namespace Repository.Models.Entities
+namespace DAL.Models.Entities
 {
     /// <summary>
     /// The base implementation of an entity.

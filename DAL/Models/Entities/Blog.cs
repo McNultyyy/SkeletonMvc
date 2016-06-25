@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Repository.Models.Interfaces;
+using DAL.Models.Interfaces;
 
-namespace Repository.Models.Entities
+namespace DAL.Models.Entities
 {
     public class Blog : Entity, IBlog, IAuditable<BlogAudit>
     {
