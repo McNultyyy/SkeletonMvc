@@ -4,8 +4,7 @@ using System.Web.Mvc;
 using DAL.Models.Entities;
 using DAL.Repository;
 using DependencyInjection.ViewFactory;
-using Repository;
-using Repository.Models.ViewModels;
+using Web.ViewModels;
 
 namespace Web.Controllers
 {
@@ -58,7 +57,7 @@ namespace Web.Controllers
             if (ModelState.IsValid)
             {
                 var blog = AutoMapper.Mapper.Map<Blog>(vm);
-                _blogRepo.Create(blog);
+                _blogRepo.Add(blog);
                 return RedirectToAction("Index");
             }
 

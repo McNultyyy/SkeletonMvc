@@ -1,10 +1,9 @@
 ﻿using DAL.Models.Entities;
 using DAL.Repository;
 using DependencyInjection.ViewFactory;
-using Repository;
-using Repository.Models.ViewModels;
+using Web.ViewModels;
 
-namespace Mapper.ViewModelMappings.Blogs
+namespace Web.ViewModelMappings.Blogs
 {
     public class BlogDetailsViewBuilder : IViewBuilder<int, BlogDetailsModel>
     {

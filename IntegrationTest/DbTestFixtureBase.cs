@@ -67,7 +67,7 @@ namespace IntegrationTest
         public void CanCreateEntity()
         {
             var entity = CreateEntity();
-            _repository.Create(entity);
+            _repository.Add(entity);
 
             Assert.That(entity, Is.Not.Null);
             Assert.That(entity.Id, Is.Not.Null);
@@ -80,7 +80,7 @@ namespace IntegrationTest
 
 
 
-            _repository.Create(entity);
+            _repository.Add(entity);
 
             var retrievedEntity = _repository.GetById(entity.Id);
 
@@ -100,7 +100,7 @@ namespace IntegrationTest
         public void CanUpdateEntity()
         {
             var entity = CreateEntity();
-            _repository.Create(entity);
+            _repository.Add(entity);
 
             var dbEntity = _repository.GetById(entity.Id);
             var updatedEntity = UpdateEntity(dbEntity);
@@ -112,9 +112,9 @@ namespace IntegrationTest
         public void CanRemoveEntity()
         {
             var entity = CreateEntity();
-            _repository.Create(entity);
+            _repository.Add(entity);
 
-            _repository.Delete(entity);
+            _repository.Remove(entity);
 
             var dbEntity = _repository.GetById(entity.Id);
             Assert.That(dbEntity, Is.Null);

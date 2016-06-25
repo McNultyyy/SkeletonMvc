@@ -10,44 +10,50 @@ namespace DAL.Repository
     public class GenericRepository<TEntity> : IRepository<TEntity>
         where TEntity : Entity
     {
-
-        private readonly IContext _dbContext;
+        private IDbSet<TEntity> _dbSet;
+        private IContext _dbContext;
 
         public GenericRepository(IContext dbContext)
         {
             _dbContext = dbContext;
+            _dbSet = dbContext.Set<TEntity>();
         }
 
-        public void Create(TEntity entity)
+        public void Add(TEntity entity)
         {
-            _dbContext.Set<TEntity>().Add(entity);
-            _dbContext.SaveChanges();
+            _dbSet.Add(entity);
         }
 
-        public void Delete(TEntity entity)
+        public void Remove(TEntity entity)
         {
-            _dbContext.Set<TEntity>().Remove(entity);
-            _dbContext.SaveChanges();
+            _dbSet.Remove(entity);
         }
 
         public IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>> predicate)
         {
-            return _dbContext.Set<TEntity>().Where(predicate).AsEnumerable();
+            var entity = _dbSet.Where(predicate).AsEnumerable();
+            return entity;
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            return _dbContext.Set<TEntity>().AsEnumerable();
+            var entities = _dbSet.AsEnumerable();
+            return entities;
         }
 
         public TEntity GetById(int id)
         {
-            return _dbContext.Set<TEntity>().Find(id);
+            var entity = _dbSet.Find(id);
+            return entity;
         }
 
         public void Update(TEntity entity)
         {
             _dbContext.Entry(entity).State = EntityState.Modified;
+        }
+
+        public virtual void Save()
+        {
             _dbContext.SaveChanges();
         }
     }

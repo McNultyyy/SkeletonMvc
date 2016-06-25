@@ -11,8 +11,8 @@ namespace DAL.Repository
         IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>> predicate);
 
-        void Create(TEntity entity);
+        void Add(TEntity entity);
         void Update(TEntity entity);
-        void Delete(TEntity entity);
+        void Remove(TEntity entity);
     }
 }

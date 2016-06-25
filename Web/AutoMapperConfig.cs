@@ -1,7 +1,7 @@
 ﻿using DAL.Models.Entities;
-using Repository.Models.ViewModels;
+using Web.ViewModels;
 
-namespace Mapper
+namespace Web
 {
     public static class AutoMapperConfig
     {

@@ -36,6 +36,8 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Documentat
 		{26564DCE-1BD5-470A-81AA-779BF829EDFA} = {26564DCE-1BD5-470A-81AA-779BF829EDFA}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E31ED704-719A-46AA-9929-6F7A16179438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{21290507-D722-42D4-90A7-1547719BE48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21290507-D722-42D4-90A7-1547719BE48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21290507-D722-42D4-90A7-1547719BE48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31ED704-719A-46AA-9929-6F7A16179438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31ED704-719A-46AA-9929-6F7A16179438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31ED704-719A-46AA-9929-6F7A16179438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31ED704-719A-46AA-9929-6F7A16179438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

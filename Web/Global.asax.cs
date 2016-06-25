@@ -6,7 +6,6 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using DependencyInjection;
-using Mapper;
 using Microsoft.Practices.Unity.Mvc;
 
 namespace Web
