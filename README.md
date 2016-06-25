@@ -7,8 +7,16 @@ A skeleton project for general MVC projects.
 
 ---
 
-###Code First
-Currently uses EF codefirst migrations.
+###DAL (Data Access Layer)
+Contains the DAO, entity mappings, repositories, context as well as the database migrations.
+
+###BLL (Business Logic Layer)
+Contains the entity services.
+
+###Web (Presentation Layer)
+A standard MVC web project.
+
+---
 
 ###Dependency Injection
 Uses Unity for dependency injection, should be relatively easy to change to Ninject, StructureMap etc...
@@ -16,21 +24,11 @@ Uses Unity for dependency injection, should be relatively easy to change to Ninj
 ###Documentation
 Contains the SandCastle documentation project.
 
-###Mapper
-Contains Entity, ViewModel and AutoMapping mapping configs.
-
-###DAL (Data Access Layer)
-The DAOs, ViewModels and Repositories.
-
-###Web
-A standard MVC web project.
-
 ###Extension
 A collection of extension methods used through the application.
-  
-  
----  
-  
+
+---
+
 ####QuickStart
 ```
 Enable-Migrations -ContextProjectName DAL
