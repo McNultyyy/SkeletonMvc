@@ -216,3 +216,6 @@ bower_components
 
 # Documentation path
 Documentation/**/*.*
+
+!DAL/Migrations/Configuration.cs
+DAL/Migrations/**.*
