@@ -1,4 +1,5 @@
 ﻿using System;
+using BLL.DefaultServiceProvider;
 using BLL.EntityServices;
 using DAL;
 using DAL.Repository;
@@ -33,6 +34,7 @@ namespace DependencyInjection
             container.RegisterType<IContext, SkeletonMvcContext>();
             container.RegisterType(typeof(IRepository<>), typeof(GenericRepository<>));
             container.RegisterType(typeof(IEntityService<>), typeof(GenericEntityService<>));
+            container.RegisterType(typeof(IDefaultValueProvider<>), typeof(GenericDefaultValueProvider<>));
 
             container.RegisterType<IViewFactory, DefaultViewFactory>();
             container.RegisterImplementationsClosingInterface(typeof(IViewBuilder<>));
