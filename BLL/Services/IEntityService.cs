@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using DAL.Models.Entities;
 
-namespace BLL.EntityServices
+namespace BLL.Services
 {
     public interface IEntityService<TEntity>
         where TEntity : Entity

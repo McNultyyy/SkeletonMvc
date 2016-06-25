@@ -47,9 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DefaultServiceProvider\IDefaultValueProvider.cs" />
-    <Compile Include="EntityServices\BlogService.cs" />
-    <Compile Include="EntityServices\GenericEntityService.cs" />
-    <Compile Include="EntityServices\IEntityService.cs" />
+    <Compile Include="Services\EntityServices\BlogService.cs" />
+    <Compile Include="Services\EntityServices\IBlogService.cs" />
+    <Compile Include="Services\GenericEntityService.cs" />
+    <Compile Include="Services\IEntityService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

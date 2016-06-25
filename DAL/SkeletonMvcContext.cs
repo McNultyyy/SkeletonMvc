@@ -5,9 +5,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading;
 using DAL.Models.Entities;
-using DAL.Models.Interfaces;
 using DAL.Repository;
 using DAL.Repository.Conventions;
+using Extension;
 
 namespace DAL
 {
@@ -49,26 +49,6 @@ namespace DAL
 
         public override int SaveChanges()
         {
-            var modifiedEntries = ChangeTracker.Entries().Where(x =>
-                x.GetType().GetInterfaces().Contains(typeof(IAudits<>)) &&
-                (x.State == EntityState.Added || x.State == EntityState.Modified));
-
-            foreach (var modifiedEntry in modifiedEntries)
-            {
-                var entity = modifiedEntry.Entity as IAudits<Entity>;
-
-                if (entity != null)
-                {
-                    var action = modifiedEntry.State.ToString();
-                    var username = Thread.CurrentPrincipal.Identity.Name ?? "Unknown";
-                    var date = DateTime.Now;
-
-                    entity.Action = action;
-                    entity.ChangedBy = username;
-                    entity.ChangeDate = date;
-                }
-
-            }
             return base.SaveChanges();
         }
     }

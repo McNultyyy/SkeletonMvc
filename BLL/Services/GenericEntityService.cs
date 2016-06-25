@@ -4,13 +4,13 @@ using DAL.Models.Entities;
 using DAL.Repository;
 using DAL.UnitOfWork;
 
-namespace BLL.EntityServices
+namespace BLL.Services
 {
     public class GenericEntityService<TEntity> : IEntityService<TEntity>
         where TEntity : Entity
     {
-        private IRepository<TEntity> _repository;
-        private IUnitOfWork _unitOfWork;
+        private readonly IRepository<TEntity> _repository;
+        private readonly IUnitOfWork _unitOfWork;
 
         public GenericEntityService(IRepository<TEntity> repository, IUnitOfWork unitOfWork)
         {

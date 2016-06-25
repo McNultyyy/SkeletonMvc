@@ -2,9 +2,9 @@
 using DAL.Repository;
 using DAL.UnitOfWork;
 
-namespace BLL.EntityServices
+namespace BLL.Services.EntityServices
 {
-    public class BlogService : GenericEntityService<Blog>
+    public class BlogService : GenericEntityService<Blog>, IBlogService
     {
         public BlogService(IRepository<Blog> repository, IUnitOfWork unitOfWork)
             : base(repository, unitOfWork)

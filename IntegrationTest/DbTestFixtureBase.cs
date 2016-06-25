@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Transactions;
+using BLL.Services;
 using DAL.Models.Entities;
 using DAL.Repository;
 using DependencyInjection;
@@ -12,7 +13,7 @@ namespace IntegrationTest
 {
     public abstract class DbTestFixtureBase<TEntity> where TEntity : Entity, new()
     {
-        private IRepository<TEntity> _repository;
+        private IEntityService<TEntity> service;
         private IEnumerable<string> _excludedProperties;
         private TransactionScope _transaction;
 
@@ -20,7 +21,7 @@ namespace IntegrationTest
         public void Init()
         {
             var container = IoC.GetConfiguredContainer();
-            _repository = container.Resolve<IRepository<TEntity>>();
+            service = container.Resolve<IEntityService<TEntity>>();
             _excludedProperties = new[]
             {
                 new TEntity().GetPropertyName(x => x.Id),
@@ -67,22 +68,20 @@ namespace IntegrationTest
         public void CanCreateEntity()
         {
             var entity = CreateEntity();
-            _repository.Add(entity);
+            service.Create(entity);
 
             Assert.That(entity, Is.Not.Null);
             Assert.That(entity.Id, Is.Not.Null);
         }
 
         [Test]
-        public void CanRetrieveEntity()
+        public void CanGetEntity()
         {
             var entity = CreateEntity();
 
+            service.Create(entity);
 
-
-            _repository.Add(entity);
-
-            var retrievedEntity = _repository.GetById(entity.Id);
+            var retrievedEntity = service.GetById(entity.Id);
 
             Assert.That(retrievedEntity, Is.Not.Null);
 
@@ -100,9 +99,9 @@ namespace IntegrationTest
         public void CanUpdateEntity()
         {
             var entity = CreateEntity();
-            _repository.Add(entity);
+            service.Create(entity);
 
-            var dbEntity = _repository.GetById(entity.Id);
+            var dbEntity = service.GetById(entity.Id);
             var updatedEntity = UpdateEntity(dbEntity);
 
             Assert.That(dbEntity, Is.Not.EqualTo(updatedEntity));
@@ -112,11 +111,11 @@ namespace IntegrationTest
         public void CanRemoveEntity()
         {
             var entity = CreateEntity();
-            _repository.Add(entity);
+            service.Create(entity);
 
-            _repository.Remove(entity);
+            service.Delete(entity);
 
-            var dbEntity = _repository.GetById(entity.Id);
+            var dbEntity = service.GetById(entity.Id);
             Assert.That(dbEntity, Is.Null);
         }
 

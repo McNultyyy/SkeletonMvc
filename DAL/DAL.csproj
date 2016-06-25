@@ -51,12 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityMappings\BlogMapping.cs" />
+    <Compile Include="Migrations\201606251244308_Initial.cs" />
+    <Compile Include="Migrations\201606251244308_Initial.Designer.cs">
+      <DependentUpon>201606251244308_Initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Blog.cs" />
     <Compile Include="Models\Entities\Entity.cs" />
-    <Compile Include="Models\Interfaces\IAuditable.cs" />
-    <Compile Include="Models\Interfaces\IAudits.cs" />
-    <Compile Include="Models\Interfaces\IHasMany.cs" />
     <Compile Include="Repository\Conventions\ForeignKeyNamingConvention.cs" />
     <Compile Include="Repository\IContext.cs" />
     <Compile Include="Repository\IRepository.cs" />
@@ -69,6 +70,20 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201606251244308_Initial.resx">
+      <DependentUpon>201606251244308_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Extension\Extension.csproj">
+      <Project>{93279203-9A01-459D-93F6-F528518F1625}</Project>
+      <Name>Extension</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.CodeDom;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.CSharp;
 using Moq;
@@ -68,6 +70,18 @@ namespace Extension
                 .GetConstructor(new Type[] { });
             var result = emptyConstructor?.Invoke(new object[] { });
 
+            return result;
+        }
+
+        public static Type GetEnumerableType(this Type type)
+        {
+            var result = type.GetInterfaces()
+                .Where(t =>
+                    t.IsGenericType &&
+                    t.GetGenericTypeDefinition() == typeof(IEnumerable<>)
+                )
+                .Select(t => t.GetGenericArguments()[0])
+                .FirstOrDefault();
             return result;
         }
     }

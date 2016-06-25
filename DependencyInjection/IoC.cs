@@ -1,8 +1,9 @@
 ﻿using System;
 using BLL.DefaultServiceProvider;
-using BLL.EntityServices;
+using BLL.Services;
 using DAL;
 using DAL.Repository;
+using DAL.UnitOfWork;
 using Extension;
 using Microsoft.Practices.Unity;
 
@@ -30,8 +31,9 @@ namespace DependencyInjection
 
         private static void RegisterServices(IUnityContainer container)
         {
-            container.RegisterType<IContext, SkeletonMvcContext>();
+            container.RegisterType<IContext, SkeletonMvcContext>(new ContainerControlledLifetimeManager());
             container.RegisterType(typeof(IRepository<>), typeof(GenericRepository<>));
+            container.RegisterType<IUnitOfWork, UnitOfWork>();
             container.RegisterType(typeof(IEntityService<>), typeof(GenericEntityService<>));
             container.RegisterType(typeof(IDefaultValueProvider<>), typeof(GenericDefaultValueProvider<>));
         }
