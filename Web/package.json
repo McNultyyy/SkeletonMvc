@@ -1,5 +1,5 @@
 {
-  "name": "SkeletonMvc",
+  "name": "skeletonmvc",
   "version": "0.0.0",
   "description": "A skeleton project for general MVC projects.",
   "main": "index.js",
