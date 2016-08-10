@@ -1,4 +1,4 @@
-﻿namespace Web.ViewModels
+﻿namespace Web.ViewModels.Blog
 {
     public class BlogDetailsModel
     {

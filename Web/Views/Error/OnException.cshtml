@@ -1,0 +1,18 @@
+﻿@model Web.ViewModels.Error.ErrorOnExceptionModel
+
+@{
+    ViewBag.Title = "Exception";
+}
+
+<h2>Exception</h2>
+
+<div class="alert alert-warning">
+    <p>
+        <strong>
+            @Model.ExceptionMessage
+        </strong>
+    </p>
+    <p>
+        @Model.Stacktrace
+    </p>
+</div>

@@ -3,7 +3,7 @@ using System.Web.Mvc;
 
 namespace Web.Controllers
 {
-    public class ErrorController : Controller
+    public class ErrorController : SkeletonMvcControllerBase
     {
         // GET: Error/401
         [ActionName("401")]

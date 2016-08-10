@@ -1,5 +1,6 @@
 ﻿using DAL.Models.Entities;
 using Web.ViewModels;
+using Web.ViewModels.Blog;
 
 namespace Web
 {

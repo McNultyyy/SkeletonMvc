@@ -1,5 +1,6 @@
 ﻿using Web.ViewFactory;
 using Web.ViewModels;
+using Web.ViewModels.Blog;
 
 namespace Web.ViewModelMappings.Blogs
 {

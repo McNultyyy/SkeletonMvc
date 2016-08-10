@@ -1,14 +1,16 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using DAL.Models.Entities;
 using DAL.Repository;
 using Web.ViewFactory;
 using Web.ViewModels;
+using Web.ViewModels.Blog;
 
 namespace Web.Controllers
 {
-    public class BlogController : Controller
+    public class BlogController : SkeletonMvcControllerBase
     {
         private readonly IRepository<Blog> _blogRepo;
         private readonly IViewFactory _factory;
