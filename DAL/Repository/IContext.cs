@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Threading.Tasks;
 using DAL.Models.Entities;
 
 namespace DAL.Repository
@@ -8,8 +9,10 @@ namespace DAL.Repository
     public interface IContext : IDisposable
     {
         IDbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity, IEntity;
+        DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
 
         int SaveChanges();
-        DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
+        Task<int> SaveChangesAsync();
+        void RollBack();
     }
 }

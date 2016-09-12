@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using DAL.Models.Entities;
 
 namespace BLL.Services
@@ -7,10 +8,18 @@ namespace BLL.Services
         where TEntity : Entity
     {
         void Create(TEntity entity);
-        void Update(TEntity entity);
-        void Delete(TEntity entity);
+        Task CreateAsync(TEntity entity);
 
-        TEntity GetById(int id);
+        void Update(TEntity entity);
+        Task UpdateAsync(TEntity entity);
+
+        void Delete(TEntity entity);
+        Task DeleteAsync(TEntity entity);
+
+        TEntity Get(int id);
+        Task<TEntity> GetAsync(int id);
+
         IEnumerable<TEntity> GetAll();
+        Task<IEnumerable<TEntity>> GetAllAsync();
     }
 }

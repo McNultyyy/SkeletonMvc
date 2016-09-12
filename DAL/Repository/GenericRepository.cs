@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 using DAL.Models.Entities;
 
 namespace DAL.Repository
@@ -23,11 +24,16 @@ namespace DAL.Repository
         {
             _dbSet.Add(entity);
         }
+        public virtual void Update(TEntity entity)
+        {
+            _dbContext.Entry(entity).State = EntityState.Modified;
+        }
 
         public virtual void Remove(TEntity entity)
         {
             _dbSet.Remove(entity);
         }
+
 
         public virtual IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>> predicate)
         {
@@ -35,22 +41,37 @@ namespace DAL.Repository
             return entity;
         }
 
-        public virtual IEnumerable<TEntity> GetAll()
+        public async Task<TEntity> GetAsync(int id)
+        {
+            var entity = await _dbSet.FirstOrDefaultAsync(x => x.Id == id);
+            return entity;
+        }
+
+        public async Task<IEnumerable<TEntity>> GetAsync()
+        {
+            var entities = await _dbSet.ToListAsync();
+            return entities;
+        }
+
+        public async Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> predicate)
+        {
+            var entities = await _dbSet.Where(predicate).ToListAsync();
+            return entities;
+        }
+
+        public virtual IEnumerable<TEntity> Get()
         {
             var entities = _dbSet.AsEnumerable();
             return entities;
         }
 
-        public virtual TEntity GetById(int id)
+        public virtual TEntity Get(int id)
         {
             var entity = _dbSet.Find(id);
             return entity;
         }
 
-        public virtual void Update(TEntity entity)
-        {
-            _dbContext.Entry(entity).State = EntityState.Modified;
-        }
+
     }
 
 }

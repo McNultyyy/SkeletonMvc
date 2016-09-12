@@ -4,6 +4,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using DAL.Models.Entities;
 using DAL.Repository;
 using DAL.Repository.Conventions;
@@ -51,5 +52,11 @@ namespace DAL
         {
             return base.SaveChanges();
         }
+
+        public void RollBack()
+        {
+            base.Dispose();
+        }
+
     }
 }

@@ -81,7 +81,7 @@ namespace IntegrationTest
 
             service.Create(entity);
 
-            var retrievedEntity = service.GetById(entity.Id);
+            var retrievedEntity = service.Get(entity.Id);
 
             Assert.That(retrievedEntity, Is.Not.Null);
 
@@ -95,13 +95,13 @@ namespace IntegrationTest
             }
         }
 
-        [Test, Ignore("")]
+        [TestCase()]
         public void CanUpdateEntity()
         {
             var entity = CreateEntity();
             service.Create(entity);
 
-            var dbEntity = service.GetById(entity.Id);
+            var dbEntity = service.Get(entity.Id);
             var updatedEntity = UpdateEntity(dbEntity);
 
             Assert.That(dbEntity, Is.Not.EqualTo(updatedEntity));
@@ -115,7 +115,7 @@ namespace IntegrationTest
 
             service.Delete(entity);
 
-            var dbEntity = service.GetById(entity.Id);
+            var dbEntity = service.Get(entity.Id);
             Assert.That(dbEntity, Is.Null);
         }
 

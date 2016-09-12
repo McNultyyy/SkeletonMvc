@@ -98,7 +98,6 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="ControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -109,10 +108,6 @@
     <ProjectReference Include="..\Extension\Extension.csproj">
       <Project>{93279203-9a01-459d-93f6-f528518f1625}</Project>
       <Name>Extension</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Web\Web.csproj">
-      <Project>{47543350-2833-4CE0-9574-471B8B349601}</Project>
-      <Name>Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using DAL.Repository;
 
 namespace DAL.UnitOfWork
@@ -15,6 +16,11 @@ namespace DAL.UnitOfWork
         public int Commit()
         {
             return _dbContext.SaveChanges();
+        }
+
+        public async Task<int> CommitAsync()
+        {
+            return await _dbContext.SaveChangesAsync();
         }
 
         public void Dispose()
