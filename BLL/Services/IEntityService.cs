@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DAL.Models.Entities;
+using Core.Entities;
 
 namespace BLL.Services
 {
     public interface IEntityService<TEntity>
-        where TEntity : Entity
+        where TEntity : IEntity
     {
         void Create(TEntity entity);
         Task CreateAsync(TEntity entity);

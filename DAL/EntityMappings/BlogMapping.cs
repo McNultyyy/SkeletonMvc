@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using DAL.Models.Entities;
+using Core.Entities;
 
 namespace DAL.EntityMappings
 {

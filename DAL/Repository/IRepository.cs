@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using DAL.Models.Entities;
+using Core.Entities;
 
 namespace DAL.Repository
 {

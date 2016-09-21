@@ -3,12 +3,10 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using DAL.Models.Entities;
+using Core.Entities;
+
 using DAL.Repository;
 using DAL.Repository.Conventions;
-using Extension;
 
 namespace DAL
 {
@@ -50,6 +48,14 @@ namespace DAL
 
         public override int SaveChanges()
         {
+            var addedEntities = ChangeTracker.Entries<Entity>()
+                .Where(x => x.State == EntityState.Added)
+                .Select(x => x.Entity);
+
+            var updatedEntities = ChangeTracker.Entries<Entity>()
+                .Where(x => x.State == EntityState.Modified)
+                .Select(x => x.Entity);
+
             return base.SaveChanges();
         }
 

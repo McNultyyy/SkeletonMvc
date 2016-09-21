@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
-using DAL.Models.Entities;
+using Core.Entities;
 
 namespace DAL.Repository
 {

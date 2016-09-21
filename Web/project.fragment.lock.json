@@ -1,0 +1,245 @@
+{
+  "version": 2,
+  "exports": {
+    "BLL/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6",
+      "compile": {
+        "bin/Debug/BLL.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/BLL.dll": {}
+      }
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Core.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Core.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Core.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Common.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Common.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Common.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6",
+      "compile": {
+        "bin/Debug/Repository.dll": {}
+      },
+      "runtime": {
+        "../packages/CompareNETObjects.3.05.0.0/lib/net46/KellermanSoftware.Compare-NET-Objects.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "../packages/Microsoft.Bcl.Async.1.0.168/lib/net40/Microsoft.Threading.Tasks.Extensions.Desktop.dll": {},
+        "../packages/Microsoft.Bcl.Async.1.0.168/lib/net40/Microsoft.Threading.Tasks.Extensions.dll": {},
+        "../packages/Microsoft.Bcl.Async.1.0.168/lib/net40/Microsoft.Threading.Tasks.dll": {},
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "bin/Debug/Repository.dll": {}
+      },
+      "contentFiles": {
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.exe"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.exe.config": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.exe.config"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.rsp": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csc.rsp"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csi.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csi.exe"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csi.rsp": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/csi.rsp"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.build.tasks.codeanalysis.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.build.tasks.codeanalysis.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.csharp.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.csharp.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.csharp.scripting.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.csharp.scripting.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.scripting.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.scripting.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.visualbasic.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.codeanalysis.visualbasic.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.csharp.core.targets": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.csharp.core.targets"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.diasymreader.native.amd64.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.diasymreader.native.amd64.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.diasymreader.native.x86.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.diasymreader.native.x86.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.visualbasic.core.targets": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/microsoft.visualbasic.core.targets"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.appcontext.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.appcontext.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.collections.immutable.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.collections.immutable.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.diagnostics.stacktrace.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.diagnostics.stacktrace.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.io.filesystem.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.io.filesystem.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.io.filesystem.primitives.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.io.filesystem.primitives.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.reflection.metadata.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/system.reflection.metadata.dll"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.exe"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.exe.config": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.exe.config"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.rsp": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbc.rsp"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbcscompiler.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbcscompiler.exe"
+        },
+        "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbcscompiler.exe.config": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "c:/users/william/projects/skeletonmvc/packages/microsoft.net.compilers.1.3.2/build/../tools/vbcscompiler.exe.config"
+        }
+      }
+    },
+    "Resolver/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Resolver.dll": {}
+      },
+      "runtime": {
+        "../packages/CommonServiceLocator.1.3/lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {},
+        "../packages/Unity.4.0.1/lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+        "../packages/Unity.4.0.1/lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
+        "../packages/Unity.4.0.1/lib/net45/Microsoft.Practices.Unity.dll": {},
+        "bin/Debug/Resolver.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Resolver.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿using DAL.Models.Entities;
+﻿using Core.Entities;
 using DAL.Repository;
 using DAL.UnitOfWork;
 

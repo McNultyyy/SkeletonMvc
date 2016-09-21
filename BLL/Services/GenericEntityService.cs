@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DAL.Models.Entities;
+using Core.Entities;
 using DAL.Repository;
 using DAL.UnitOfWork;
 
