@@ -1,6 +1,6 @@
 ﻿namespace Resolver
 {
-    public interface IComponent
+    public interface IResolverComponent
     {
         void SetUp(IRegisterComponent registerComponent);
     }

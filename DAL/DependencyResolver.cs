@@ -5,8 +5,8 @@ using Resolver;
 
 namespace DAL
 {
-    [Export(typeof(IComponent))]
-    public class DependencyResolver : IComponent
+    [Export(typeof(IResolverComponent))]
+    public class DependencyResolver : IResolverComponent
     {
         public void SetUp(IRegisterComponent container)
         {

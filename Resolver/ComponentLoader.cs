@@ -25,11 +25,11 @@ namespace Resolver
                     {
                         IEnumerable<Export> exports = compositionContainer.GetExports(importDef);
 
-                        IEnumerable<IComponent> modules =
-                            exports.Select(export => export.Value as IComponent).Where(m => m != null);
+                        IEnumerable<IResolverComponent> modules =
+                            exports.Select(export => export.Value as IResolverComponent).Where(m => m != null);
 
                         var registerComponent = new RegisterComponent(container);
-                        foreach (IComponent module in modules)
+                        foreach (IResolverComponent module in modules)
                         {
                             module.SetUp(registerComponent);
                         }
@@ -50,7 +50,7 @@ namespace Resolver
 
         private static ImportDefinition BuildImportDefinition()
         {
-            return new ImportDefinition(def => true, typeof(IComponent).FullName, ImportCardinality.ZeroOrMore, false, false);
+            return new ImportDefinition(def => true, typeof(IResolverComponent).FullName, ImportCardinality.ZeroOrMore, false, false);
         }
     }
 
